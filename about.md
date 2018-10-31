@@ -2,19 +2,17 @@
 layout: about
 path: /about
 url: index.html
-image: http://unsplash.it/400?random
+image: /msr-awt-portfolio/public/images/myface.jpg
 ---
 
 ## Overview
-Lorem ipsum dolor sit amet, purto tota in vel, exerci discere apeirian has in. Nec noster iracundia eu, utroque facilis ad has. Alii argumentum no his, omnis iusto scripta vim in, ipsum ridens mel at. Has homero phaedrum no, ea autem affert facilis usu, has possim meliore perpetua id. Errem iisque mea ex, option ocurreret no est. Sea facer ullamcorper ne, cu dictas discere repudiandae sea.
+Andrew was first introduced to robotics as a young man, participating in and eventually becoming an officer of his high school's robotics & design team. He would go on to participate in a wide range of research interests while attending Indiana University, including questions in endocrinology, digital humanities, and (most centrally) the biophysics of vision. Throughout all lines of research, the primary drive was to better understand the differences and similarities between biological and mechanical systems.
 
-His nemore audiam consequat ad, no augue choro assueverit mei. Zril offendit tincidunt ne quo. At commodo integre alienum sea, cu vocent fuisset suscipit nam. Eum ex tation omnesque adversarium, mutat autem putant te nam. Id vix facilis complectitur, vis vitae vivendo euripidis ea, fugit eirmod an vix.
+After graduating, Andrew joined on as lab manager at the de Ruyter Biophysics lab, where he spent a year working on software design for the generation of experimental stimuli as well as for neural recording. The position additionally involved analysis of experimental data as well as the maintenance and development of laboratory resources.
 
-Ad case nemore equidem mea. Duo te iuvaret appetere appellantur, sint scaevola usu cu. Eum ne aeque ridens prompta. At legendos vulputate eos, pro illum iuvaret cu, ludus vituperata usu no.
-
-Mel magna discere in. Mea ea dicit homero perfecto. Eam nulla facete scribentur in. Vide volutpat laboramus est cu, usu cu impetus dignissim. Ex pro decore impetus. Ius nihil iisque deterruisset an, ex sanctus verterem his. Doming prompta insolens est ut.
+Andrew is now pursuing a master's degree in robotics, where he hopes to further explore the interface between human and artifice. After graduation he intends to enter the broad field of prosthetics, with particular interest in neuromuscular interface.
 
 ### Research interests
-* Interest 1
-* Interest 2
-* Interest 3
+* Biomechanics and Biomimicry
+* Prosthetics and Orthotics
+* Information Theory

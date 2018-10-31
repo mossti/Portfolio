@@ -1,9 +1,9 @@
 # Site settings
-title:              Portfolio Template
-email:              your-email@domain.com
-description:        "Portfolio template for students in the MSR program at Northwestern University"
+title:              Portfolio
+email:              andrewthompson2019@u.northwestern.edu
+description:        "Portfolio for Andrew Thompson at Northwestern University"
 url:                "http://localhost:4000"
-baseurl:            /msr-student-template
+baseurl:            /msr-awt-portfolio
 
 # File structure settings
 image_path:         /public/images
