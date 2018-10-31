@@ -2,8 +2,8 @@
 title:              Portfolio
 email:              andrewthompson2019@u.northwestern.edu
 description:        "Portfolio for Andrew Thompson at Northwestern University"
-url:                "http://localhost:4000"
-baseurl:            /msr-awt-portfolio
+url:                mossti.github.io
+baseurl:            /Portfolio
 
 # File structure settings
 image_path:         /public/images
