@@ -2,7 +2,7 @@
 layout: about
 path: /about
 url: index.html
-image: myface.jpg
+image: /msr-student-template/public/images/myface.jpg
 ---
 
 ## Overview
