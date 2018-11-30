@@ -2,7 +2,7 @@
 title:              Portfolio
 email:              andrewthompson2019@u.northwestern.edu
 description:        "Portfolio for Andrew Thompson at Northwestern University"
-url:                mossti.github.io
+url:                "http://localhost:4000"
 baseurl:            /Portfolio
 
 # File structure settings
