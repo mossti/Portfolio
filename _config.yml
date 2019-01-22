@@ -9,7 +9,7 @@ baseurl:            /Portfolio
 image_path:         /public/images
 
 # Build settings
-markdown:           GFM #changed from kramdown (1/22/2019)
+markdown:           kramdown
 permalink:          pretty
 
 # Collection definitions and settings
