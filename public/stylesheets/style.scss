@@ -13,7 +13,7 @@ label, table, caption, {
 
 html {
 	width: 100%;
-	font-family: $font-stack; 
+	font-family: $font-stack;
 
 	body {
 
@@ -82,9 +82,12 @@ html {
 					width: calc((100% - 60px - 40px) / 4);
 					display: inline-block;
 					margin-bottom: 20px;
-					border: 2px solid #bbb;
+					border: 15px solid #bbb;
 					text-align: center;
 					position: relative;
+					border-radius: 50%;
+					cursor: pointer;
+					transition-duration: 0.4s;
 
 					div.aspect-ratio-keeper {
 						padding-bottom: 100%;
@@ -93,6 +96,7 @@ html {
 					div.content {
 						position: absolute;
 						top: 0;  bottom: 0;  left: 0;  right: 0;
+
 					}
 
 					a {
@@ -117,6 +121,7 @@ html {
 						-webkit-transform-style: preserve-3d;
 						-moz-transform-style: preserve-3d;
 						transform-style: preserve-3d;
+						border-radius: 50%;
 
 						div.image-vertical-align-box {
 							position: relative;
@@ -124,19 +129,22 @@ html {
 							-webkit-transform: translateY(-50%);
 							-ms-transform: translateY(-50%);
 							transform: translateY(-50%);
-							
+							border-radius: 50%;
+
 							img.inner {
 								width: 100%;
 								margin: auto;
+								border-radius: 50%;
 							}
 						}
 					}
-
-					div.inner-text {
+				}
+					div.container:hover {div.inner-text {
+						display: block;
 						padding-top: 8%;
 						padding-bottom: 4%;
 						z-index: 100;
-						background: white;
+						background: grey;
 						overflow: hidden;
 						position: absolute;
 						bottom: 0px;
@@ -144,8 +152,9 @@ html {
 						max-height: 30%;
 						min-height: 10%;
 
+
 						h2 {
-							font-size: 16px;
+							font-size: 20px;
 							margin: 0;
 							padding: 0;
 							margin-left: 1%;
@@ -171,7 +180,7 @@ html {
 			}
 		}
 
-		
+
 		/* About page */
 		main#about {
 
@@ -212,7 +221,7 @@ html {
 				h3, p, ul, form, ol { margin: 1.12em 0 }
 				h5 { margin: 1.5em 0 }
 				h6 { margin: 1.67em 0 }
-				ol, ul { margin-left: 40px; }	
+				ol, ul { margin-left: 40px; }
 			}
 		}
 		/* Project page template */
@@ -242,7 +251,7 @@ html {
 				h3, p, ul, form, ol { margin: 1.12em 0 }
 				h5 { margin: 1.5em 0 }
 				h6 { margin: 1.67em 0 }
-				ol, ul { margin-left: 40px; }	
+				ol, ul { margin-left: 40px; }
 			}
 		}
 		/* Footer */
@@ -269,12 +278,12 @@ html {
 						width: 100%;
 						float: none;
 						text-align: left;
-						
+
 					}
 				}
 			}
 
-			
+
 		}
 	}
 }
