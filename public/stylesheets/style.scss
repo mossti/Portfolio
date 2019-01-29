@@ -1,5 +1,5 @@
 /* Variables */
-$font-stack: Arial, Helvetica, sans-serif;
+$font-stack: Times, Helvetica, sans-serif;
 
 /* Templating */
 html, body, div, span, h1, h2, h3, h4,
@@ -32,12 +32,16 @@ html {
 				> a {
 					color: inherit;
 
+					/*Upper left header text*/
 					h1 {
 						float: left;
 						font-size: 16px;
 						color: inherit;
+
 					}
 				}
+
+				/*Upper right links to sub-pages*/
 				ul {
 					float: right;
 					list-style: none;
@@ -63,10 +67,12 @@ html {
 			> h1.page-header {
 				margin: 20px auto 10px;
 				width: 80%;
+
 			}
 			section {
 				margin: 0 auto;
 				width: 80%;
+
 			}
 		}
 		/* Portfolio page */
@@ -87,7 +93,7 @@ html {
 					position: relative;
 					border-radius: 50%;
 					cursor: pointer;
-					transition-duration: 0.4s;
+					transition-duration: 0.3s;
 
 					div.aspect-ratio-keeper {
 						padding-bottom: 100%;
@@ -115,43 +121,58 @@ html {
 
 					div.image-container {
 						position: relative;
-						height: 85%;
+						height: 100%;
 						overflow: hidden;
 						text-align: center;
 						-webkit-transform-style: preserve-3d;
 						-moz-transform-style: preserve-3d;
 						transform-style: preserve-3d;
-						border-radius: 50%;
+						/*opacity: 1.0;*/
+						/*border-radius: 50%;*/
 
 						div.image-vertical-align-box {
+							display: inline-block;
 							position: relative;
-							top: 50%;
+							/*top: 50%;
 							-webkit-transform: translateY(-50%);
 							-ms-transform: translateY(-50%);
-							transform: translateY(-50%);
+							transform: translateY(-50%);*/
+							width: 100%;
+							height: 100%;
+							overflow: hidden;
 							border-radius: 50%;
+							opacity: 1.0;
+							transition: 0.3s;
 
 							img.inner {
-								width: 100%;
-								margin: auto;
-								border-radius: 50%;
+								width: auto;
+								height: 100%;
+
+								/*margin: auto;*/
+								/*border-radius: 50%;*/
 							}
 						}
+
+						/*div.image-vertical-align-box:hover {
+							opacity: 0.5;
+						}*/
+
 					}
 				}
 					div.container:hover {div.inner-text {
 						display: block;
 						padding-top: 8%;
-						padding-bottom: 4%;
+						padding-bottom: 8%;
 						z-index: 100;
-						background: grey;
+						opacity: 1.0;
+						/*background: grey;*/
+						color: black;
 						overflow: hidden;
 						position: absolute;
-						bottom: 0px;
+						bottom: 37.5%;
 						width: 100%;
 						max-height: 30%;
 						min-height: 10%;
-
 
 						h2 {
 							font-size: 20px;
@@ -161,7 +182,15 @@ html {
 							margin-right: 1%;
 						}
 					}
+
+					div.image-container{
+						div.image-vertical-align-box{
+							opacity: 0.2;
+						}
+					}
+
 				}
+
 
 				/* 2xN grid: */
 				@media screen and (max-width : 800px) {
