@@ -6,7 +6,7 @@ description:
 featured_image: '/images/triplefollerjoint.jpg'
 ---
 
-![](/images/tripleroller.jpg)
+![](https://github.com/mossti/Portfolio/tree/master/images/tripleroller.jpg)
 
 ## Overview
 
