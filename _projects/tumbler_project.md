@@ -3,7 +3,7 @@ title: 'Bipedal Descender'
 subtitle: 'Legged Robotics Dynamics Simulation'
 date: 2018-06-30 00:00:00
 description:
-featured_image: '/images/tumblerWithSpring.gif'
+featured_image: '/images/tmattumbler.jpg'
 ---
 
 ## Overview
