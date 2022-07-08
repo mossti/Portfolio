@@ -5,8 +5,17 @@ description:
 featured_image: '/images/myface.jpg'
 ---
 
+1.
 <img src="../images/myface.jpg">
+
+2.
+<img src="https://github.com/mossti/Portfolio/blob/master/images/myface.jpg">
+
+3.
 ![insert face here](../images/myface.jpg)
+
+4.
+![insert face here](https://github.com/mossti/Portfolio/blob/master/images/myface.jpg)
 
 ## Overview
 

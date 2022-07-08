@@ -6,11 +6,12 @@ description:
 featured_image: '/images/fixins_44steps.png'
 ---
 
-## Overview
-
-<div class="gallery" data-columns="1">
+<div class="gallery" data-columns="2">
     <img src="../images/example_of_ray_tracing_5rays.png">
     <img src="../images/patches.png">
     <img src="../images/update2.png">
     <img src="../images/fixins_44steps.png">
 </div>
+
+
+## Overview

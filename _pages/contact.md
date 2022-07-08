@@ -5,11 +5,17 @@ description:
 featured_image: '/images/demo/demo-landscape.jpg'
 ---
 
+1.
 ![](https://github.com/mossti/Portfolio/blob/master/images/320734.png)
 
+2.
 ![](../images/320734.png)
 
+3.
 <img src="../images/320734.png">
+
+4.
+<img src="https://github.com/mossti/Portfolio/blob/master/images/320734.png">
 
 ## Feel free to reach out via:
 
