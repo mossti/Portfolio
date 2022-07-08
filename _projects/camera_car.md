@@ -6,8 +6,6 @@ description:
 featured_image: '/images/linefollowingvehicle.jpg'
 ---
 
-*WORK IN PROGRESS*
-
 ## Overview
 
 ### Check it out!
