@@ -14,6 +14,8 @@ Andrew was first introduced to robotics as a young man, participating in and eve
 
 In the summer of 2018, Andrew departed from Indiana to the distant land of Chicago, Illinois. Here, he began as a student in Northwestern's Masters of Science in Robotics (MSR) program, which he graduated from in Fall 2019. Andrew is now a rising 3rd year pursuing a PhD degree in Mechanical Engineering at Northwestern University, where he hopes to further explore the interface between human and artifice. After graduation he intends to enter the field of assistive robotics, with particular interest in computational geometry and low-cost, high-access solutions.
 
+My C.V.: 
+<embed src="../docs/cv.pdf" type="application/pdf">
 
 ### Research interests
 * Assistive Technology and Shared Autonomy

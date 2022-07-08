@@ -11,7 +11,7 @@ featured_image: '/images/tune_best_w_5gen_MIN_LAST.png'
 
 ### Check it out!
 
-<div class="gallery" data-columns="2">
+<div class="gallery" data-columns="1">
     <img src="../images/tune_best2_so_far_MAX_FIRST.png">
     <img src="../images/25_10_10_01_poplist_MIN_LAST.png">
     <img src="../images/20_10_10_01_poplist_mut5_MIN_LAST.png">
