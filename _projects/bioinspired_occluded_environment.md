@@ -9,13 +9,21 @@ featured_image: '/images/vcw_and_traces.png'
 ## Overview
 
 
-![raytracing](/images/example_of_ray_tracing_5rays.png)
+![](/images/example_of_ray_tracing_5rays.png)
 
-![patches](/images/patches.png)
+![](/images/patches.png)
 
-![patches_and_raytracing](/images/update2.png)
+![](/images/update2.png)
 
-![all_fixins](/images/fixins_44steps.png)
+![](/images/fixins_44steps.png)
+
+![]("/images/example_of_ray_tracing_5rays.png")
+
+![]("/images/patches.png")
+
+![]("/images/update2.png")
+
+![]("/images/fixins_44steps.png")
 
 ```html
 <div class="gallery" data-columns="2">

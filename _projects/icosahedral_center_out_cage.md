@@ -8,4 +8,4 @@ featured_image: '/images/cage_assembly_demo.png'
 
 ## Overview
 
-![icosahedron_joint](/images/joint_assembly.png)
+![icosahedron_joint](/images/joint_assembly.png "joint detail")
