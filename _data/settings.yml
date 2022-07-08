@@ -20,7 +20,8 @@ menu_settings:
 footer_settings:
   logo_image:
   logo_width: 200
-  footer_tagline: 'Thanks for visiting! Return to homepage...'
+  footer_tagline: 'Return to homepage...'
+  footer_sub_tagline: 'Thanks for visiting!'
 
 grid_settings:
   overlay_opacity: 0.8
