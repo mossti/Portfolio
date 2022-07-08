@@ -8,14 +8,6 @@ featured_image: '/images/design2_actuation.gif'
 
 ## Overview
 
-![design1](/images/design1_actuation.gif "design 1")
+<img src='../images/design1_actuation.gif'>
 
-![design2](/images/design2_actuation.gif "design 2")
-
-```html
-<img src='/images/design1_actuation.gif'>
-<img src='/images/design2_actuation.gif'>
-```
-
-<img src='/images/design1_actuation.gif'>
-<img src='/images/design2_actuation.gif'>
+<img src='../images/design2_actuation.gif'>

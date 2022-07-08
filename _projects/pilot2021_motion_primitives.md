@@ -10,6 +10,7 @@ featured_image: '/images/motion_primitive_pilot_spring2019.png'
 
 ### Check it out!
 
-![bounding](/images/fwr_bounding "bounding example")
 
-![classification](/images/groundtruth_rowwise_e75_all_all_THISONE.png "groundtruth")
+<img src="../images/fwr_bounding.png">
+
+<img src="../images/groundtruth_rowwise_e75_all_all_THISONE.png">
