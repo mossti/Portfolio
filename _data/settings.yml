@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Andrew Thompson's Portfolio
-  favicon_image: /images/1F916_color #/images/msr-student-template-favicon.png
+  favicon_image: /images/1F916_color.png #/images/msr-student-template-favicon.png
 
 header_settings:
   logo_image:
