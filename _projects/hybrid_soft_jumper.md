@@ -1,10 +1,13 @@
 ---
-title: 'Bioinspired studies in soft actuation for jumping'
+title: 'Bioinspired studies of fluid-activated jumping mechanisms'
 subtitle:
 date: 2018-06-30 00:00:00
 description:
-featured_image: '/images/linefollowingvehicle.jpg'
+featured_image: '/images/design2_actuation.gif'
 ---
 
 ## Overview
 
+![design1](/images/design1_actuation.gif)
+
+![design2](/images/design2_actuation.gif)

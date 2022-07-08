@@ -6,9 +6,7 @@ description:
 featured_image: '/images/linefollowingvehicle.jpg'
 ---
 
-*WORK IN PROGRESS*
 
 ## Overview
 
 ### Check it out!
-[Link to the Line-Following Vehicle project repository on Github.](https://github.com/mossti/ME433-Advanced-Mechatronics/tree/master/HW16)
