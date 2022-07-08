@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Andrew Thompson's Portfolio
+  site_title: Andrew Thompson's portfolio
   favicon_image: /images/1F916_color.png #/images/msr-student-template-favicon.png
 
 header_settings:
@@ -8,13 +8,13 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Projects'
+    - title: 'projects'
       url: '/'
     #- title: 'Blog'
     #  url: '/blog/'
-    - title: 'About'
+    - title: 'about'
       url: '/about'
-    - title: 'Contact'
+    - title: 'contact'
       url: '/contact'
 
 footer_settings:
@@ -24,7 +24,7 @@ footer_settings:
 
 grid_settings:
   overlay_opacity: 0.8
-  grid_spacing: 10
+  grid_spacing: 12
 
 contact_settings:
   form_action: ''

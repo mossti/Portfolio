@@ -3,12 +3,12 @@ title: 'Bioinspired algorithm for efficient exploration in a densely-occluded en
 subtitle:
 date: 2018-06-30 00:00:00
 description:
-featured_image: '/images/vcw_and_traces.png'
+featured_image: '/images/fixins_44steps.png'
 ---
 
 ## Overview
 
-<div class="gallery" data-columns="2">
+<div class="gallery" data-columns="1">
     <img src="../images/example_of_ray_tracing_5rays.png">
     <img src="../images/patches.png">
     <img src="../images/update2.png">

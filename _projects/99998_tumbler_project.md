@@ -6,6 +6,8 @@ description:
 featured_image: '/images/tumblerWithSpring.gif'
 ---
 
+<img src="../images/tumblerWithSpring.gif">
+
 ## Overview
 This project was to create a dynamic simulation of a two-legged tumbling robot. In this simulation, the gravity and environmental parameters are meant to model a Martian chasm. The robot itself is on a tensile string, and undergoes plastic impact with the various outcrops on its way down.
 
