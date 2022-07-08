@@ -11,6 +11,8 @@ featured_image: '/images/vcw_and_traces.png'
 image: '/images/example_of_ray_tracing_5rays.png'
 
 ![](/images/example_of_ray_tracing_5rays.png)
+![](../images/example_of_ray_tracing_5rays.png)
+![](~/images/example_of_ray_tracing_5rays.png)
 
 ![](/images/patches.png)
 
@@ -25,6 +27,8 @@ image: '/images/example_of_ray_tracing_5rays.png'
 ![]("/images/update2.png")
 
 ![]("/images/fixins_44steps.png")
+
+
 
 
 <div class="gallery" data-columns="2">
