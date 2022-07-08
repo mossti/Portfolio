@@ -1,0 +1,14 @@
+---
+title: '(ongoing) Refactor of argallab smart powered wheelchair'
+subtitle:
+date: 2018-06-30 00:00:00
+description:
+featured_image: '/images/linefollowingvehicle.jpg'
+---
+
+*WORK IN PROGRESS*
+
+## Overview
+
+### Check it out!
+[Link to the Line-Following Vehicle project repository on Github.](https://github.com/mossti/ME433-Advanced-Mechatronics/tree/master/HW16)
