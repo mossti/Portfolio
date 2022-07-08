@@ -8,7 +8,7 @@ featured_image: '/images/vcw_and_traces.png'
 
 ## Overview
 
-image: '/images/example_of_ray_tracing_5rays.png'
+
 
 ![](/images/example_of_ray_tracing_5rays.png)
 ![](../images/example_of_ray_tracing_5rays.png)
@@ -32,9 +32,17 @@ image: '/images/example_of_ray_tracing_5rays.png'
 
 
 <div class="gallery" data-columns="2">
-    <img src="/images/example_of_ray_tracing_5rays.png">
-    <img src="/images/patches.png">
-    <img src="/images/update2.png">
-    <img src="/images/fixins_44steps.png">
+    <img src="../images/example_of_ray_tracing_5rays.png">
+    <img src="../images/patches.png">
+    <img src="../images/update2.png">
+    <img src="../images/fixins_44steps.png">
 </div>
 
+
+
+<div class="gallery" data-columns="2">
+    <img src="~/images/example_of_ray_tracing_5rays.png">
+    <img src="~/images/patches.png">
+    <img src="~/images/update2.png">
+    <img src="~/images/fixins_44steps.png">
+</div>
