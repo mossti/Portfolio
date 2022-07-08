@@ -6,7 +6,7 @@ featured_image: '/images/myface.jpg'
 ---
 
 <img src="../images/myface.jpg">
-<!-- ![insert face here](/images/myface.jpg) -->
+![insert face here](../images/myface.jpg)
 
 ## Overview
 
@@ -16,14 +16,14 @@ In the summer of 2018, Andrew departed from Indiana to the distant land of Chica
 
 My C.V.: 
 
-1.
-https://mossti.github.io/Portfolio/docs/cv.pdf
+<!-- 1. -->
+<!-- https://mossti.github.io/Portfolio/docs/cv.pdf -->
 
-2.
-<a id="raw-url" href="https://github.com/mossti/Portfolio/blob/master/docs/resume_cv_may_2022.pdf">resume_cv_may_2022.pdf</a> | download link |
+<!-- 2. -->
+<a id="raw-url" href="https://github.com/mossti/Portfolio/blob/master/docs/resume_cv_may_2022.pdf">[NOTE] click here to view my C.V.</a>
 
-3.
-[../docs/cv.pdf](https://github.com/mossti/Portfolio/blob/master/docs/resume_cv_may_2022.pdf)
+<!-- 3.
+[../docs/cv.pdf](https://github.com/mossti/Portfolio/blob/master/docs/resume_cv_may_2022.pdf) -->
 
 ### Research interests
 * Assistive Technology and Shared Autonomy
