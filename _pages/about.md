@@ -6,10 +6,12 @@ featured_image: '/images/myface.jpg'
 ---
 
 1.
-<img src="../images/myface.jpg">
+<img src="../images/myface.jpg" width="800">
+<img src="../images/myface.JPG" width="800">
 
 2.
-<img src="https://github.com/mossti/Portfolio/blob/master/images/myface.jpg">
+<img src="https://github.com/mossti/Portfolio/blob/master/images/myface.jpg" width="800">
+<img src="https://github.com/mossti/Portfolio/blob/master/images/myface.JPG" width="800">
 
 3.
 ![](../images/myface.jpg)
