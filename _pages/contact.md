@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: '[contact]'
 subtitle:
 description:
 featured_image: '/images/demo/demo-landscape.jpg'
