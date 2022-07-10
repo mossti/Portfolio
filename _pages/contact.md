@@ -5,7 +5,7 @@ description:
 featured_image: '/images/demo/demo-landscape.jpg'
 ---
 
-<img src={{site.baseurl}}/images/320734.png>
+<img src="{{site.baseurl}}/images/320734.png">
 
 <!-- <img src={{site.baseurl}}/images/320734.png width="800px"> -->
 
