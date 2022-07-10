@@ -5,7 +5,8 @@ description:
 featured_image: '/images/demo/demo-landscape.jpg'
 ---
 
-<img src={{site.baseurl}}/images/320734.png width="800">
+<img src={{site.baseurl}}/images/320734.png>
+<img src={{site.baseurl}}/images/320734.png width="800px">
 
 <!-- 1.
 ![](https://github.com/mossti/Portfolio/blob/master/images/320734.png)
@@ -21,7 +22,7 @@ featured_image: '/images/demo/demo-landscape.jpg'
 
 ## Feel free to reach out via:
 
-* Phone: (317)-345-2744
+* Phone: 317.345.2744
 * Email: andrewthompson2019@u.northwestern.edu
 * LinkedIn: [LinkedIn](https://www.linkedin.com/in/andrew-thompson-940b17127/)
-* Address: 6639 N Greenview Ave, Chicago, IL, 60626
+<!-- * Address: 6639 N Greenview Ave, Chicago, IL, 60626 -->
