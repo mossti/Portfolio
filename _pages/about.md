@@ -7,6 +7,7 @@ featured_image: '/images/myface.jpg'
 
 
 <img src="{{site.baseurl}}/images/myface.jpg">
+
 <img src={{site.baseurl}}/images/myface.jpg width="800px">
 
 <!-- 1. 1
