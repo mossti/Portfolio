@@ -6,8 +6,8 @@ featured_image: '/images/myface.jpg'
 ---
 
 
-<img src="{{site.baseurl}}/images/myface.jpg">
-<img src={{site.baseurl}}/images/myface.jpg>
+<!-- <img src="{{site.baseurl}}/images/myface.jpg"> -->
+<img src={{site.baseurl}}/images/myface.jpg width="800">
 
 <!-- 1. 1
 <img src="../images/myface.jpg">
