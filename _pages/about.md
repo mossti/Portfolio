@@ -5,6 +5,10 @@ description:
 featured_image: '/images/myface.jpg'
 ---
 
+
+<img src="{{site.baseurl}}/images/myface.jpg">
+<img src={{site.baseurl}}/images/myface.jpg>
+
 <!-- 1. 1
 <img src="../images/myface.jpg">
 <img src="../images/myface.jpg" width="800">
