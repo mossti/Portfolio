@@ -12,9 +12,15 @@ This project involved the creation of a small differential-drive vehicle with em
 <!-- [Inkscape](https://inkscape.org/).  -->
 
 <h3>
-<video src="{{site.baseurl}}/videos/me433_hw16_vehicle_demo.mp4" data-canonical-src="{{site.baseurl}}/videos/me433_hw16_vehicle_demo.mp4" controls="controls" style="max-height:640px;">
+<video class="center" src="{{site.baseurl}}/videos/me433_hw16_vehicle_demo.mp4" data-canonical-src="{{site.baseurl}}/videos/me433_hw16_vehicle_demo.mp4" controls="controls" style="max-height:640px;">
 
 </video>
+</h3>
+
+<h3>
+<video class="center" src="{{site.baseurl}}/videos/me433_hw16_vehicle_demo.mp4" data-canonical-src="{{site.baseurl}}/videos/me433_hw16_vehicle_demo.mp4" controls="controls" style="max-height:640px;">
+
+<!-- </video> -->
 </h3>
 
 ### Check it out!
