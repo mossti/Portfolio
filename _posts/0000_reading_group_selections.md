@@ -1,8 +1,7 @@
 ---
 title: 'Reading group selections'
-subtitle: 
 date: 2018-06-30 00:00:00
-description: 
+description: Selected reading group slide decks.
 featured_image: '/images/book_in_hands.jpg'
 ---
 
