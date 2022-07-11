@@ -13,5 +13,3 @@ This project was to create a dynamic simulation of a two-legged tumbling robot. 
 This model was inspired by the <a href="https://www.strandbeest.com/" title="Strandbeests of Theo Jansen">Strandbeests of Theo Jansen</a>, which utilize the interplay of environmental forces (e.g., wind, gravity, etc.) and mechanical properties (e.g., springs, pulleys, airfoils, etc.) to effect bio-inspired motion.
 
 <img src="../images/tumblerWithSpring.gif">
-
-<!-- ![Strandbeests of Theo Jansen](https://www.strandbeest.com/) -->
