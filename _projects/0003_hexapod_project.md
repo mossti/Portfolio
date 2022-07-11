@@ -10,7 +10,7 @@ This project involved the design of a hexapod: the 3D printing and design of mec
 
 You can see the demo video below:
 
-<video src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" data-canonical-src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" controls="controls" style="max-height:640px;">
+<video src="{{site.baseurl}}/videos/Hexapodal_Gait.mp4" data-canonical-src="{{site.baseurl}}/videos/Hexapodal_Gait.mp4" controls="controls" style="max-height:640px;">
 
 </video>
 
