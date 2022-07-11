@@ -6,8 +6,6 @@ description:
 featured_image: '/images/design2_actuation.gif'
 ---
 
-## Overview
-
 <img src='../images/design1_actuation.gif'>
 
 <img src='../images/design2_actuation.gif'>

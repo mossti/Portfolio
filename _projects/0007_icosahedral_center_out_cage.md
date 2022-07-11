@@ -6,5 +6,4 @@ description:
 featured_image: '/images/cage_assembly_demo.png'
 ---
 
-## Overview
 <img src="../images/joint_assembly.png">

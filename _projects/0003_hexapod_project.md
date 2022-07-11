@@ -11,7 +11,7 @@ This project involved the design of a hexapod, involving 3D printing and design 
 
 You can see the demo video 
 
-<iframe src="https://www.youtube.com/watch?v=c8YuM24-HN4&feature=youtu.be" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/watch?v=c8YuM24-HN4&feature=youtu.be" width="640" height="360" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Won't play in browser? No problem! See the video on its host site [here](https://www.youtube.com/watch?v=c8YuM24-HN4&feature=youtu.be)!
 
