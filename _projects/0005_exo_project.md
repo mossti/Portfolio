@@ -27,7 +27,7 @@ This project was completed as my final project for the Masters of Science in Rob
 </center> -->
 
 <div>
-<video class="center" src="{{site.baseurl}}/videos/MSR_2019_SEA_exo.mp4" data-canonical-src="{{site.baseurl}}/videos/MSR_2019_SEA_exo.mp4" control="controls" style="max-height:640px;">
+<video class="center" src="{{site.baseurl}}/videos/MSR_2019_SEA_exo.mp4" data-canonical-src="{{site.baseurl}}/videos/MSR_2019_SEA_exo.mp4" controls="controls" style="max-height:640px;">
 
 </video>
 </div>
