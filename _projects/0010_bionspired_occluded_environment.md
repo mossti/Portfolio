@@ -6,14 +6,15 @@ description:
 featured_image: '/images/fixins_44steps.png'
 ---
 
-This project was completed as part of Dr. Malcolm MacIver's course, "
+This project was completed as part of Dr. Malcolm MacIver's course, "Computational Neuromechanics and Neuroethology", where we were tasked on an individual basis to expand upon a codebase actively used by his research group. This codebase's intent is to model predator/prey interactions using intelligent, autonomous agents in simulation. One focus of the course---and of the research which his group has already published---is the effect of environmental density on agent behaviors. I decided to try and apply a handful of navigation techniques to the agent to see if I could optimize the agent's path-length within the context of a novel, potentially dangerous, and variationally dense environment.
 
 <div class="gallery" data-columns="2">
     <img src="../images/example_of_ray_tracing_5rays.png">
+    Above: the use of ray-tracing to check for local features of the environment.
     <img src="../images/patches.png">
+    Above: the use of spatial binning ("patches") to keep discovered environmental features within memory in an efficient manner.
     <img src="../images/update2.png">
+    Above: simultaneous ray-tracing and spatial binning (sRTSB)
     <img src="../images/fixins_44steps.png">
+    Optimized SLAM within a heavily occluded environment (using sRTSB)
 </div>
-
-
-## Overview
