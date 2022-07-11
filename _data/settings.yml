@@ -10,8 +10,10 @@ menu_settings:
   menu_items:
     - title: 'projects'
       url: '/'
-    - title: 'Blog'
-      url: '/blog/'
+    - title: 'publications'
+      url: '/publications/'
+    - title: 'blog'
+      url: '/blog'
     - title: 'about'
       url: '/about'
     - title: 'contact'
