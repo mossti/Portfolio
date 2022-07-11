@@ -10,6 +10,6 @@ This project reflects a pilot study conducted solely on control subjects which w
 
 <img src="../images/fwr_bounding.png" height="640">
 
-Three separate networks were trained: (1) control data only, (2) SCI data only, (3) both control and SCI data. As shown in the first picture below, collections of paths across users could be interpreted as similar within an 'envelope' of variation---and typically this variation was more pronounced in SCI participants, reflecting various degrees of neuromotor impairment. As shown in the second picture, the network employed proved robust enough to this variation, classifying well above 95% of the test set's trajectories correctly.
+Three separate networks were trained: (1) control data only, (2) SCI data only, (3) both control and SCI data. As shown in the first picture (above), collections of paths across users could be interpreted as similar within an 'envelope' of variation---and typically this variation was more pronounced in SCI participants, reflecting various degrees of neuromotor impairment. As shown in the second picture, the network employed proved robust enough to this variation, classifying well above 95% of the test set's trajectories correctly.
 
 <img src="../images/groundtruth_rowwise_e75_all_all_THISONE.png" height="640">
