@@ -264,7 +264,7 @@
 .video-wrap {
 	position: relative;
 	max-width: 90%;
-	margin: 20px auto;
+	margin: 80px auto; // [NOTE] added these margins 7/11/2022
 
 	@include mq(tabletp) {
 		margin: 30px auto;
