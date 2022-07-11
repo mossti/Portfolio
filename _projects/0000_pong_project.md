@@ -21,6 +21,13 @@ This was a group project to make an interactive Pong game with Rethink's Sawyer 
     <video controls width="640" src="{{site.baseurl}}/videos/Sawyer_Robot_Arm_Interactive_Pong_Game.mp4" type=video/mp4>
 </div>
 
+
+<video src="{{site.baseurl}}/videos/Sawyer_Robot_Arm_Interactive_Pong_Game.mp4" data-canonical-src="{{site.baseurl}}/videos/Sawyer_Robot_Arm_Interactive_Pong_Game.mp4" controls="controls" style="max-height:640px;">
+
+</video>
+
+
+
 <!-- 2. -->
 <!-- <video controls width="640" class="demoVideo">
     <source src="{{site.baseurl}}/videos/Sawyer_Robot_Arm_Interactive_Pong_Game.mp4" type=video/mp4>
