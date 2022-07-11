@@ -458,3 +458,17 @@ section {
 		@include translate(0,30px);
 	}
 }
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - custom
+
+// https://stackoverflow.com/questions/38993946/video-isnt-showing-on-my-webpage
+.demoVideo {
+	position: fixed;
+	z-index: 20;
+	background-color: transparent;
+	min-width: 75%;
+	min-height: 75%;
+	margin-left: 10%;
+	top: 10%;
+	border: 1px white solid
+}
