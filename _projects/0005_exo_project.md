@@ -8,19 +8,23 @@ featured_image: '/images/triplefollerjoint.jpg'
 
 <!-- <iframe src="https://www.youtube.com/watch?v=A_MqyhAG-6s" width="640" height="360" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe> -->
-<div>
+<!-- <div>
     <center>
         <video controls width="640">
-            <source src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" type=video/mp4>
+            <video src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" data-canonical-src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" control="controls" type=video/mp4>
         </video>
     </center>
-</div>
+</div> -->
 
-<center>
+<!-- <center>
     <video controls width="640">
         <source src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" type=video/mp4>
     </video>
-</center>
+</center> -->
+
+<video src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" data-canonical-src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" control="controls" style="max-height:640px;">
+
+</video>
 
 Won't play in browser? No problem! See the video on its host site [here!](https://www.youtube.com/watch?v=A_MqyhAG-6s)
 
