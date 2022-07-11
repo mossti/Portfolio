@@ -15,4 +15,4 @@ featured_image: '/images/tune_best_w_5gen_MIN_LAST.png'
 
 <img src="../images/tune_best_w_5gen_MIN_LAST.png">
 
-See my full report <a id="raw-url" href="https://github.com/mossti/Portfolio/blob/master/docs/ga_report.pdf">here</a>!
+See my <a id="raw-url" href="https://github.com/mossti/Portfolio/blob/master/docs/ga_report.pdf">full report here</a>!
