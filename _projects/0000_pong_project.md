@@ -10,6 +10,8 @@ featured_image: '/images/groupphoto.jpg'
 ## Overview
 This was a group project to make an interactive Pong game with Rethink's Sawyer robotic arm. We utilized ultrasonic range finders and on-the-fly computations of the arm's twist in ROS to cause Sawyer to carry a ball back and forth between the two players paddles (hands held in front of the range-finders).
 
+You can see the demo video below:
+
 <div>
 <video class="center" src="{{site.baseurl}}/videos/Sawyer_Robot_Arm_Interactive_Pong_Game.mp4" data-canonical-src="{{site.baseurl}}/videos/Sawyer_Robot_Arm_Interactive_Pong_Game.mp4" controls="controls" style="max-height:640px;">
 
