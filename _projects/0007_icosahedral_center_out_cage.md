@@ -7,3 +7,5 @@ featured_image: '/images/cage_assembly_demo.png'
 ---
 
 <img src="../images/joint_assembly.png">
+
+I designed this piece of experimental hardware over Summer 2021 to contribute to an ongoing study in our research group.
