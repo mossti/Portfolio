@@ -8,10 +8,19 @@ featured_image: '/images/triplefollerjoint.jpg'
 
 <!-- <iframe src="https://www.youtube.com/watch?v=A_MqyhAG-6s" width="640" height="360" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe> -->
+<div>
+    <center>
+        <video controls width="640">
+            <source src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" type=video/mp4>
+        </video>
+    </center>
+</div>
 
-<video controls width="640">
-    <source src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" type=video/mp4>
-</video>
+<center>
+    <video controls width="640">
+        <source src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" type=video/mp4>
+    </video>
+</center>
 
 Won't play in browser? No problem! See the video on its host site [here!](https://www.youtube.com/watch?v=A_MqyhAG-6s)
 
@@ -24,7 +33,7 @@ Won't play in browser? No problem! See the video on its host site [here!](https:
     <img src="../images/adjustableclampwithdycem.jpg">
     <img src="../images/singleroller.jpg">
     <img src="../images/tripleroller.jpg">
-    <img src="../images/triplefollerjoint.jpg.jpg">
+    <img src="../images/triplefollerjoint.jpg">
 </div>
 
 ### Check it out!
