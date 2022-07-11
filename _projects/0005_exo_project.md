@@ -11,23 +11,23 @@ featured_image: '/images/triplefollerjoint.jpg'
 <!-- <div>
     <center>
         <video controls width="640">
-            <video src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" data-canonical-src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" control="controls" type=video/mp4>
+            <video src="{{site.baseurl}}/videos/MSR_2019_SEA_exo.mp4" data-canonical-src="{{site.baseurl}}/videos/MSR_2019_SEA_exo.mp4" control="controls" type=video/mp4>
         </video>
     </center>
 </div> -->
 
 <!-- <center>
     <video controls width="640">
-        <source src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" type=video/mp4>
+        <source src="{{site.baseurl}}/videos/MSR_2019_SEA_exo.mp4" type=video/mp4>
     </video>
 </center> -->
 
-<video class="center" src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" data-canonical-src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" control="controls" style="max-height:640px;">
+<video class="center" src="{{site.baseurl}}/videos/MSR_2019_SEA_exo.mp4" data-canonical-src="{{site.baseurl}}/videos/MSR_2019_SEA_exo.mp4" control="controls" style="max-height:640px;">
 
 </video>
 
 <div>
-<video class="center" src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" data-canonical-src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" control="controls" style="max-height:640px;">
+<video class="center" src="{{site.baseurl}}/videos/MSR_2019_SEA_exo.mp4" data-canonical-src="{{site.baseurl}}/videos/MSR_2019_SEA_exo.mp4" control="controls" style="max-height:640px;">
 
 </video>
 </div>
