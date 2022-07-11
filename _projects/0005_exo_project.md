@@ -26,6 +26,12 @@ featured_image: '/images/triplefollerjoint.jpg'
 
 </video>
 
+<div>
+<video class="center" src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" data-canonical-src="{{site.baseurl}}/videos/MSR_2019_Cable_Driven_Series_Elastic_Actuator_for_Exoskeletal_Applications.mp4" control="controls" style="max-height:640px;">
+
+</video>
+</div>
+
 Won't play in browser? No problem! See the video on its host site [here!](https://www.youtube.com/watch?v=A_MqyhAG-6s)
 
 <div class="gallery" data-columns="3">

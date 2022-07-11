@@ -468,3 +468,10 @@ section {
 	background-color: transparent;
 	border: 1px white solid
 }
+
+// https://stackoverflow.com/questions/5879209/how-to-center-html5-videos
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
