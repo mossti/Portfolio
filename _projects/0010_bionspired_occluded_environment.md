@@ -6,6 +6,8 @@ description:
 featured_image: '/images/fixins_44steps.png'
 ---
 
+This project was completed as part of Dr. Malcolm MacIver's course, "
+
 <div class="gallery" data-columns="2">
     <img src="../images/example_of_ray_tracing_5rays.png">
     <img src="../images/patches.png">
