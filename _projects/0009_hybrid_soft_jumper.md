@@ -13,25 +13,25 @@ I animated these two designs for a project in the course "Signals and Sensing"; 
 #### Design 1: "The Rocket"
 This design is almost entirely ballistic, and utilizes internal soft actuators to help control the dynamics.
 <div class="gallery" columns=3>
-    <img src='../images/BME_462_hybrid_soft_jumper.png' height=300>
-    <img src='../images/BME_462_hybrid_soft_jumper_actuation1.png' height=300>
-    <img src='../images/BME_462_hybrid_soft_jumper_actuation2.png' height=300>
-    <img src='../images/BME_462_hybrid_soft_jumper_actuation3.png' height=300>
-    <img src='../images/BME_462_hybrid_soft_jumper_actuation4.png' height=300>
-    <img class="animated-gif" src='../images/design1_actuation.gif' height=300>
+    <img src='../images/BME_462_hybrid_soft_jumper.png' width=100>
+    <img src='../images/BME_462_hybrid_soft_jumper_actuation1.png' width=100>
+    <img src='../images/BME_462_hybrid_soft_jumper_actuation2.png' width=100>
+    <img src='../images/BME_462_hybrid_soft_jumper_actuation3.png' width=100>
+    <img src='../images/BME_462_hybrid_soft_jumper_actuation4.png' width=100>
+    <img class="animated-gif" src='../images/design1_actuation.gif' width=100>
 </div>
 
 #### Design 2: "The Orb"
 This design is meant to roll and bounce with directional control afforded only by the manipulation of the 'foot' (which serves as an intermediate impact surface). 
 <div class="gallery" columns=4>
-    <img src='../images/BME_462_rigid_foot_v2_step0.png' height=300>
-    <img src='../images/BME_462_rigid_foot_v2_step1.png' height=300>
-    <img src='../images/BME_462_rigid_foot_v2_step2.png' height=300>
-    <img src='../images/BME_462_rigid_foot_v2_step3.png' height=300>
-    <img src='../images/BME_462_rigid_foot_v2_step4.png' height=300>
-    <img src='../images/BME_462_rigid_foot_v2_step5.png' height=300>
-    <img src='../images/BME_462_rigid_foot_v2_step6.png' height=300>
-    <img src='../images/BME_462_rigid_foot_v2_step7.png' height=300>
+    <img src='../images/BME_462_rigid_foot_v2_step0.png' width=100>
+    <img src='../images/BME_462_rigid_foot_v2_step1.png' width=100>
+    <img src='../images/BME_462_rigid_foot_v2_step2.png' width=100>
+    <img src='../images/BME_462_rigid_foot_v2_step3.png' width=100>
+    <img src='../images/BME_462_rigid_foot_v2_step4.png' width=100>
+    <img src='../images/BME_462_rigid_foot_v2_step5.png' width=100>
+    <img src='../images/BME_462_rigid_foot_v2_step6.png' width=100>
+    <img src='../images/BME_462_rigid_foot_v2_step7.png' width=100>
     <img class="animated_gif" src='../images/design2_actuation.gif'>
 </div>
 
