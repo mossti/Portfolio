@@ -15,6 +15,6 @@ This project was completed as part of Dr. Malcolm MacIver's course, "Computation
     <img src="../images/update2.png">
     <img src="../images/fixins_44steps.png">
 </div>
-    [LEFT] simultaneous ray-tracing and spatial binning (sRTSB). [RIGHT] Optimized SLAM within a heavily occluded environment (using sRTSB).
+[LEFT] simultaneous ray-tracing and spatial binning (sRTSB). [RIGHT] Optimized SLAM within a heavily occluded environment (using sRTSB).
 
 See more details of my algorithmic approach in <a id="raw-url" href="https://github.com/mossti/Portfolio/blob/master/docs/thompson_asn11_bme468.pdf">this slide-deck</a>!

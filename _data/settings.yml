@@ -81,8 +81,8 @@ font_settings:
   font_embed: '<link href="../fonts/web?family=Andika" rel="stylesheet">'
   # title_font: '"Muli", sans-serif'
   # body_font: '"Muli", sans-serif'
-  title_font: '"Andika", sans-serif'
-  body_font: '"Andika", sans-serif'
+  title_font: '"Andika"' #'"Andika", sans-serif'
+  body_font: '"Andika"' #'"Andika", sans-serif'
   regular_weight: 400
   bold_weight: 600
   site_title:
