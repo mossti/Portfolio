@@ -1,6 +1,6 @@
 ---
 title: 'Reading group selections'
-date: 2018-06-30 00:00:00
+date: 2022-07-11 00:00:00
 description: Selected reading group slide decks.
 featured_image: '/images/book_in_hands.png'
 ---
