@@ -22,7 +22,7 @@ menu_settings:
 footer_settings:
   logo_image:
   logo_width: 200
-  footer_tagline: <a href="https://mossti.github.io/Portfolio" class="button button--large">'Return to homepage...'</a> # 'Return to homepage...'
+  footer_tagline: <a href="https://mossti.github.io/Portfolio" class="button button--large">*Return to homepage...*</a> # 'Return to homepage...'
   footer_sub_tagline: 'Thanks for visiting!'
 
 grid_settings:
