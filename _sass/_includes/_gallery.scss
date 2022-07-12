@@ -110,23 +110,20 @@
 	&[data-columns="3"] {
 
 		.gallery__item {
-			// width: 33.33%; [NOTE] changed on 6/11/2022
-			width: 10.00%
+			width: 33.33%;
 		}
 	}
 
 	&[data-columns="4"] {
 
 		.gallery__item {
-			// width: 33.33%; [NOTE] changed on 6/11/2022
-			width: 10.00%;
+			width: 33.33%;
 		}
 
 		@include mq(tabletp) {
 
 			.gallery__item {
-				// width: 25%; [NOTE] changed on 6/11/2022
-				width: 10.00%;
+				width: 25%;
 			}
 		}
 	}
