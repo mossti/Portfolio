@@ -22,7 +22,7 @@ menu_settings:
 footer_settings:
   logo_image:
   logo_width: 200
-  footer_tagline: 'Return to homepage...'
+  footer_tagline: <a href="https://mossti.github.io/Portfolio" class="button button--large">'Return to homepage...'</a> # 'Return to homepage...'
   footer_sub_tagline: 'Thanks for visiting!'
 
 grid_settings:
@@ -78,7 +78,8 @@ color_settings:
 
 font_settings:
   # font_embed: '<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">'
-  font_embed: '<link href="../fonts/web?family=Andika" rel="stylesheet">'
+  # font_embed: '<link href="../fonts/web?family=Andika" rel="stylesheet">'
+  font_embed: '<link href="../fonts/web/Andika-webfont-example.css" rel="stylesheet">'
   # title_font: '"Muli", sans-serif'
   # body_font: '"Muli", sans-serif'
   title_font: '"Andika"' #'"Andika", sans-serif'
