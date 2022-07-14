@@ -10,11 +10,10 @@ This project was completed as part of Dr. Malcolm MacIver's course, "Computation
 
 <div class="gallery" data-columns="2">
     <img src="../images/example_of_ray_tracing_5rays.png">
-    [LEFT] the use of ray-tracing to check for local features of the environment. [RIGHT] the use of spatial binning ("patches") to keep discovered environmental features within memory in an efficient manner.
+    *[TOP LEFT]* the use of ray-tracing to check for local features of the environment. *[TOP RIGHT]* the use of spatial binning ("patches") to keep discovered environmental features within memory in an efficient manner. *[BOTTOM LEFT]* simultaneous ray-tracing and spatial binning (sRTSB). *[BOTTOM RIGHT]* Optimized SLAM within a heavily occluded environment (using sRTSB).
     <img src="../images/patches.png">
     <img src="../images/update2.png">
     <img src="../images/fixins_44steps.png">
 </div>
-[LEFT] simultaneous ray-tracing and spatial binning (sRTSB). [RIGHT] Optimized SLAM within a heavily occluded environment (using sRTSB).
 
 See more details of my algorithmic approach in <a id="raw-url" href="https://github.com/mossti/Portfolio/blob/master/docs/thompson_asn11_bme468.pdf">this slide-deck</a>!
