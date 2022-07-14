@@ -3,7 +3,7 @@ title: 'Bioinspired proposals for a fluid-activated jumping mechanism'
 subtitle:
 date: 2018-06-30 00:00:00
 description:
-featured_image: '/images/design2_actuation.gif'
+featured_image: '/images/BME_462_rigid_foot_v2_step0.png'
 ---
 
 I animated these two designs for a project in the course "Signals and Sensing"; the goal was to design (in two-person groups) a novel actuation method based on pre-existing actuation methods in biology. Our group (classmate <a href="https://www.linkedin.com/in/ermyntrude-adjei-90a204142" title="Adjei LinkedIn Profile">Ermyntrude Adjei</a> and myself) focused on the explosive jumping mechanism found in the leg structure of grasshoppers, locusts, and other Acrididae. Both designs utilize isochoric snappers---a current trend in compliant actuation research that involves using the energy released via the (mechanical) snap-through buckling of certain plastic membranes. 
