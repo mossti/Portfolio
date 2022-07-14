@@ -6,7 +6,7 @@ description:
 featured_image: '/images/design2_actuation.gif'
 ---
 
-I animated these two designs for a project in the course "Signals and Sensing"; the goal was to design (in two-person groups) a novel actuation method based on pre-existing actuation methods in biology. Our group (classmate <a href="https://www.linkedin.com/in/ermyntrude-adjei-90a204142" title="Adjei LinkedIn Profile">Ermyntrude Adjei</a> and myself) focused on the explosive jumping mechanism found in the leg structure of grasshoppers, locusts, and other Acrididae. Both designs utilize isochoric snappers---a current trend in compliant actuation research that involves using the energy released via the explosive (mechanical) snap-through buckling of certain plastic membranes. 
+I animated these two designs for a project in the course "Signals and Sensing"; the goal was to design (in two-person groups) a novel actuation method based on pre-existing actuation methods in biology. Our group (classmate <a href="https://www.linkedin.com/in/ermyntrude-adjei-90a204142" title="Adjei LinkedIn Profile">Ermyntrude Adjei</a> and myself) focused on the explosive jumping mechanism found in the leg structure of grasshoppers, locusts, and other Acrididae. Both designs utilize isochoric snappers---a current trend in compliant actuation research that involves using the energy released via the (mechanical) snap-through buckling of certain plastic membranes. 
 <!-- Isochoric snappers may be more familiar than they seem---perhaps recognizable as the half-spherical toys that bounce into the air when inverted and placed on a flat surface. -->
 
 <img src='../images/gorissen_actuation_diagram.png'>
