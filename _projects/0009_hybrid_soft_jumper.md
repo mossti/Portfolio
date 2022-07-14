@@ -11,7 +11,7 @@ I animated these two designs for a project in the course "Signals and Sensing"; 
 
 <img src='../images/gorissen_actuation_diagram.png'>
 
-See more details of the proposed designs in <a id="raw-url" href="https://github.com/mossti/Portfolio/blob/master/docs/soft_jumping_actuator.pdf">this slide-deck</a>!
+See details of our proposed designs in <a id="raw-url" href="https://github.com/mossti/Portfolio/blob/master/docs/soft_jumping_actuator.pdf">this slide-deck</a>!
 
 #### Design 1: "The Rocket"
 This design is almost entirely ballistic, and utilizes internal soft actuators to help control the dynamics.
