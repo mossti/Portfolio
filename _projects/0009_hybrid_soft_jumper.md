@@ -43,14 +43,14 @@ This design is meant to roll and bounce with directional control afforded only b
         <img src='../images/BME_462_rigid_foot_v2_step5.png' width=50>
         <img src='../images/BME_462_rigid_foot_v2_step6.png' width=50>
         <img src='../images/BME_462_rigid_foot_v2_step7.png' width=50>
-        <!-- <img src='../images/BME_462_rigid_foot_v2_step0.png'>
+        <img src='../images/BME_462_rigid_foot_v2_step0.png'>
         <img src='../images/BME_462_rigid_foot_v2_step1.png'>
         <img src='../images/BME_462_rigid_foot_v2_step2.png'>
         <img src='../images/BME_462_rigid_foot_v2_step3.png'>
         <img src='../images/BME_462_rigid_foot_v2_step4.png'>
         <img src='../images/BME_462_rigid_foot_v2_step5.png'>
         <img src='../images/BME_462_rigid_foot_v2_step6.png'>
-        <img src='../images/BME_462_rigid_foot_v2_step7.png'> -->
+        <img src='../images/BME_462_rigid_foot_v2_step7.png'>
     <img class="animated_gif" src='../images/design2_actuation.gif'>
 </div> -->
 <img class="animated_gif" src='../images/design2_actuation.gif'>
