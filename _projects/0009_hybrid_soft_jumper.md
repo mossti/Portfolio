@@ -1,5 +1,5 @@
 ---
-title: 'Bioinspired studies of fluid-activated jumping mechanisms'
+title: 'Bioinspired proposals for a fluid-activated jumping mechanism'
 subtitle:
 date: 2018-06-30 00:00:00
 description:
