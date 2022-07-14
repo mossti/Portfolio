@@ -7,9 +7,9 @@ featured_image: '/images/book_in_hands.png'
 
 Our research group has a tradition of lab members leading reading groups once per quarter. On this page, I've included links to the presentations for some of my favorite papers to have presented.
 
-* <a id="raw-url" href="reading_group_8_11_2021_v2v_driving_scenarios_wang_et_al.pdf">"Understanding V2V Driving Scenarios Throught Traffic Primitives" (Wang, et al)</a>[^1]
-* <a id="raw-url" href="https://github.com/mossti/Portfolio/blob/master/docs/reading_group_fall_2021.pdf">"Smart Textiles that Teach: Fabric-Based Haptic Device Improves the Rate of Motor Learning" (Ramachandran, et al.)</a>[^2]
-* <a id="raw-url" href="https://github.com/mossti/Portfolio/blob/master/docs/reading_group_MDP.pdf">"A Markov Decision Process-based approach for trajectory planning with clothoid tentacles" (Mouhagir, et al.)</a>[^3]
+* <a id="raw-url" href="https://github.com/mossti/Portfolio/blob/master/docs/reading_group/reading_group_8_11_2021_v2v_driving_scenarios_wang_et_al.pdf">"Understanding V2V Driving Scenarios Throught Traffic Primitives" (Wang, et al)</a>[^1]
+* <a id="raw-url" href="https://github.com/mossti/Portfolio/blob/master/docs/reading_group/reading_group_fall_2021.pdf">"Smart Textiles that Teach: Fabric-Based Haptic Device Improves the Rate of Motor Learning" (Ramachandran, et al.)</a>[^2]
+* <a id="raw-url" href="https://github.com/mossti/Portfolio/blob/master/docs/reading_group/reading_group_MDP.pdf">"A Markov Decision Process-based approach for trajectory planning with clothoid tentacles" (Mouhagir, et al.)</a>[^3]
 
 ---
 
