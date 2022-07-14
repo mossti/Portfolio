@@ -12,7 +12,7 @@ Our research group has a tradition of lab members leading reading groups once pe
 * <a id="raw-url" href="https://github.com/mossti/Portfolio/blob/master/docs/reading_group/reading_group_MDP.pdf">"A Markov Decision Process-based approach for trajectory planning with clothoid tentacles" (Mouhagir, et al.)</a>[^3]
 
 ---
-
+### Citations
 [^1]:<div class="csl-entry">Wang, W., Zhang, W., Zhu, J., &#38; Zhao, D. (2020). Understanding V2V Driving Scenarios Through Traffic Primitives. <i>IEEE Transactions on Intelligent Transportation Systems</i>, 1–10. https://doi.org/10.1109/tits.2020.3014612</div>
 [^2]:<div class="csl-entry">Ramachandran, V., Schilling, F., Wu, A. R., &#38; Floreano, D. (2021). Smart Textiles that Teach: Fabric‐Based Haptic Device Improves the Rate of Motor Learning. <i>Advanced Intelligent Systems</i>, <i>July</i>, 2100043. https://doi.org/10.1002/aisy.202100043</div>
 [^3]:<div class="csl-entry">Mouhagir, H., Talj, R., Cherfaoui, V., Guillemard, F., &#38; Aioun, F. (2016). A Markov Decision Process-based approach for trajectory planning with clothoid tentacles. <i>IEEE Intelligent Vehicles Symposium, Proceedings</i>, <i>2016-Augus</i>, 1254–1259. https://doi.org/10.1109/IVS.2016.7535551</div>
