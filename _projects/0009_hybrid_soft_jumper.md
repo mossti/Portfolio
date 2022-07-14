@@ -35,22 +35,22 @@ This design is almost entirely ballistic, and utilizes internal soft actuators t
 This design is meant to roll and bounce with directional control afforded only by the manipulation of the 'foot' (which serves as an intermediate impact surface). 
 <div class="gallery" columns=2>
     <div class="gallery" columns=1>
-        <!-- <img src='../images/BME_462_rigid_foot_v2_step0.png' width=50>
+        <img src='../images/BME_462_rigid_foot_v2_step0.png' width=50>
         <img src='../images/BME_462_rigid_foot_v2_step1.png' width=50>
         <img src='../images/BME_462_rigid_foot_v2_step2.png' width=50>
         <img src='../images/BME_462_rigid_foot_v2_step3.png' width=50>
         <img src='../images/BME_462_rigid_foot_v2_step4.png' width=50>
         <img src='../images/BME_462_rigid_foot_v2_step5.png' width=50>
         <img src='../images/BME_462_rigid_foot_v2_step6.png' width=50>
-        <img src='../images/BME_462_rigid_foot_v2_step7.png' width=50> -->
-        <img src='../images/BME_462_rigid_foot_v2_step0.png'>
+        <img src='../images/BME_462_rigid_foot_v2_step7.png' width=50>
+        <!-- <img src='../images/BME_462_rigid_foot_v2_step0.png'>
         <img src='../images/BME_462_rigid_foot_v2_step1.png'>
         <img src='../images/BME_462_rigid_foot_v2_step2.png'>
         <img src='../images/BME_462_rigid_foot_v2_step3.png'>
         <img src='../images/BME_462_rigid_foot_v2_step4.png'>
         <img src='../images/BME_462_rigid_foot_v2_step5.png'>
         <img src='../images/BME_462_rigid_foot_v2_step6.png'>
-        <img src='../images/BME_462_rigid_foot_v2_step7.png'>
+        <img src='../images/BME_462_rigid_foot_v2_step7.png'> -->
     </div>
     <img class="animated_gif" src='../images/design2_actuation.gif'>
 </div>
