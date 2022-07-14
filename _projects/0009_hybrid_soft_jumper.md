@@ -15,8 +15,8 @@ See details of our proposed designs in <a id="raw-url" href="https://github.com/
 
 #### Design 1: "The Rocket"
 This design is almost entirely ballistic, and utilizes internal soft actuators to help control the dynamics.
-<!-- <div class="gallery" columns=2>
-    <div class="gallery" columns=1>
+<div class="gallery" columns=1>
+    <!-- <div class="gallery" columns=1>
         <img src='../images/BME_462_hybrid_soft_jumper.png' width=50>
         <img src='../images/BME_462_hybrid_soft_jumper_actuation1.png' width=50>
         <img src='../images/BME_462_hybrid_soft_jumper_actuation2.png' width=50>
@@ -26,15 +26,15 @@ This design is almost entirely ballistic, and utilizes internal soft actuators t
         <img src='../images/BME_462_hybrid_soft_jumper_actuation1.png'>
         <img src='../images/BME_462_hybrid_soft_jumper_actuation2.png'>
         <img src='../images/BME_462_hybrid_soft_jumper_actuation3.png'>
-        <img src='../images/BME_462_hybrid_soft_jumper_actuation4.png'>
+        <img src='../images/BME_462_hybrid_soft_jumper_actuation4.png'> -->
     <img class="animated-gif" src='../images/design1_actuation.gif'>
-</div> -->
-<img class="animated-gif" src='../images/design1_actuation.gif' width=720>
+</div>
+<!-- <img class="animated-gif" src='../images/design1_actuation.gif' width=720> -->
 
 #### Design 2: "The Orb"
 This design is meant to roll and bounce with directional control afforded only by the manipulation of the 'foot' (which serves as an intermediate impact surface---a rigid component in the soft actuation system). 
-<!-- <div class="gallery" columns=2>
-        <img src='../images/BME_462_rigid_foot_v2_step0.png' width=50>
+<div class="gallery" columns=1>
+        <!-- <img src='../images/BME_462_rigid_foot_v2_step0.png' width=50>
         <img src='../images/BME_462_rigid_foot_v2_step1.png' width=50>
         <img src='../images/BME_462_rigid_foot_v2_step2.png' width=50>
         <img src='../images/BME_462_rigid_foot_v2_step3.png' width=50>
@@ -49,7 +49,7 @@ This design is meant to roll and bounce with directional control afforded only b
         <img src='../images/BME_462_rigid_foot_v2_step4.png'>
         <img src='../images/BME_462_rigid_foot_v2_step5.png'>
         <img src='../images/BME_462_rigid_foot_v2_step6.png'>
-        <img src='../images/BME_462_rigid_foot_v2_step7.png'>
+        <img src='../images/BME_462_rigid_foot_v2_step7.png'> -->
     <img class="animated_gif" src='../images/design2_actuation.gif'>
-</div> -->
-<img class="animated_gif" src='../images/design2_actuation.gif' width=360>
+</div>
+<!-- <img class="animated_gif" src='../images/design2_actuation.gif' width=360> -->
