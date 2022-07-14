@@ -13,7 +13,7 @@ I animated these two designs for a project in the course "Signals and Sensing"; 
 
 See details of our proposed designs in <a id="raw-url" href="https://github.com/mossti/Portfolio/blob/master/docs/soft_jumping_actuator.pdf">this slide-deck</a>!
 
-#### Design 1: "The Rocket"
+#### Design 1:
 This design is almost entirely ballistic, and utilizes internal soft actuators to help control the dynamics.
 <div class="gallery" columns=1>
     <!-- <div class="gallery" columns=1>
@@ -31,7 +31,7 @@ This design is almost entirely ballistic, and utilizes internal soft actuators t
 </div>
 <!-- <img class="animated-gif" src='../images/design1_actuation.gif' width=720> -->
 
-#### Design 2: "The Orb"
+#### Design 2:
 This design is meant to roll and bounce with directional control afforded only by the manipulation of the 'foot' (which serves as an intermediate impact surface---a rigid component in the soft actuation system). 
 <div class="gallery" columns=1>
         <!-- <img src='../images/BME_462_rigid_foot_v2_step0.png' width=50>
