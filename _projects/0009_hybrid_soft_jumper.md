@@ -29,8 +29,7 @@ This design is almost entirely ballistic, and utilizes internal soft actuators t
         <img src='../images/BME_462_hybrid_soft_jumper_actuation4.png'>
     <img class="animated-gif" src='../images/design1_actuation.gif'>
 </div> -->
-
-<img class="animated-gif" src='../images/design1_actuation.gif'>
+<img class="animated-gif" src='../images/design1_actuation.gif' width=360>
 
 #### Design 2: "The Orb"
 This design is meant to roll and bounce with directional control afforded only by the manipulation of the 'foot' (which serves as an intermediate impact surface---a rigid component in the soft actuation system). 
@@ -53,4 +52,4 @@ This design is meant to roll and bounce with directional control afforded only b
         <img src='../images/BME_462_rigid_foot_v2_step7.png'>
     <img class="animated_gif" src='../images/design2_actuation.gif'>
 </div> -->
-<img class="animated_gif" src='../images/design2_actuation.gif'>
+<img class="animated_gif" src='../images/design2_actuation.gif' width=360>
