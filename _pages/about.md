@@ -7,7 +7,10 @@ featured_image: '/images/my_face_2.jpg'
 
 <!-- <img src="{{site.baseurl}}/images/myface.jpg" width="640"> -->
 
-<img src="{{site.baseurl}}/images/my_face_2.jpg" width="640">
+<!-- <img src="{{site.baseurl}}/images/my_face_2.jpg" width="640"> -->
+
+<img src="{{site.baseurl}}/images/my_face_2.jpg" width="320">
+
 
 <!-- Andrew was first introduced to robotics in his youth, participating in and eventually becoming an officer of his high school’s robotics & design team. He would go on to participate in a wide range of research interests while attending Indiana University, including questions in endocrinology, digital humanities, and (most centrally) the biophysics of vision. Throughout all lines of research, the primary drive was to better understand the differences and similarities between biological and mechanical systems. He graduated from Indiana University in 2017 with a B.S. in Physics and a B.A. in Folklore & Ethnomusicology. Andrew then joined on as a lab manager for the [de Ruyter Biophysics](https://www.biocomplexity.indiana.edu/research/info/deruyter.php) lab, where he spent a year working on software design for the generation of experimental stimuli as well as for neural recording. The position additionally involved analysis of experimental data as well as the maintenance and development of laboratory resources. 
 
