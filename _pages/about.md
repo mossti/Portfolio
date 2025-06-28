@@ -2,7 +2,7 @@
 title: '[about]'
 subtitle:
 description:
-featured_image: '/images/myface.jpg'
+featured_image: '/images/my_face_2.jpg'
 ---
 
 <!-- <img src="{{site.baseurl}}/images/myface.jpg" width="640"> -->
