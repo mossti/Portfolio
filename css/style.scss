@@ -158,3 +158,83 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 @import "_includes/_blog";
 
 
+// // Manual override to fix portfolio layout collapse
+// .projects {
+//   display: grid;
+//   grid-template-columns: repeat(2, minmax(0, 1fr));
+//   justify-content: center;
+//   gap: 2rem;
+// }
+
+// .projects .project {
+//   overflow: hidden;
+//   text-align: center;
+//   position: relative;
+// }
+
+// .projects .project img {
+//   max-width: 100%;
+//   height: auto;
+// //   display: block;
+//   display: inline-block;
+//   margin: 0 auto;
+// //   transition: transform 0.3s ease;
+// }
+
+// .projects {
+//   display: grid;
+//   grid-template-columns: repeat(2, minmax(0, 1fr));
+//   gap: 2rem;
+//   max-width: 1200px;
+//   margin: 0 auto;
+// }
+
+// .projects .project {
+//   text-align: center;
+//   overflow: hidden;
+//   position: relative;
+//   transition: box-shadow 0.3s ease;
+// }
+
+// .projects .project img {
+//   display: block;
+//   margin-left: auto;
+//   margin-right: auto;
+//   max-width: 100%;
+//   height: auto;
+//   transition: transform 0.3s ease;
+// }
+
+// .projects .project:hover img {
+//   transform: scale(1.05);
+// }
+
+// .projects .project:hover {
+//   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+// }
+
+.projects .project {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer; // Add this to suggest interactivity
+}
+
+.projects .project img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.projects .project:hover img {
+  transform: scale(1.05);
+}
+
+.projects .project:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+

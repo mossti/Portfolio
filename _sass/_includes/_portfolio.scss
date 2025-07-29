@@ -4,6 +4,8 @@
 
 // - - - - - - - - - - - - - - - - - -
 
+@use "sass:math";
+
 .portfolio {
 	padding: 0 $grid-spacing/2;
 }

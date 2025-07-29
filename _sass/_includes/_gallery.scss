@@ -4,6 +4,9 @@
 
 // - - - - - - - - - - - - - - - - - -
 
+@use "sass:math";
+
+
 .gallery {
 	visibility: hidden;
 	position: relative;
@@ -92,8 +95,11 @@
 .gallery--grid {
 
 	.gallery__wrap {
-		margin-left: -$grid-spacing/2;
-		margin-right: -$grid-spacing/2;
+		// margin-left: -$grid-spacing/2;
+		// margin-right: -$grid-spacing/2;
+
+		margin-left: math.div(-$grid-spacing, 2);
+		margin-right: math.div(-$grid-spacing, 2);
 	}
 	
 	.gallery__item {
