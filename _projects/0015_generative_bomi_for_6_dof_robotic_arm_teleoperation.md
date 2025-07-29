@@ -3,7 +3,7 @@ title: 'SSVAE-Based Latent Control Mapping for Assistive Robotic Interfaces'
 subtitle:
 date: 2018-06-30 00:00:00
 description:
-featured_image: '../images/latent_space_3d_ssvae_p2_s0TEST_icml_sn5.png'
+featured_image: '/images/latent_space_3d_ssvae_p2_s0TEST_icml_sn5.png'
 ---
 
 # SSVAE-Based Latent Control Mapping for Assistive Robotic Interfaces

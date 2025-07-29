@@ -3,7 +3,7 @@ title: 'Contextual Nudging for Intent Disambiguation in Assistive Shared Autonom
 subtitle:
 date: 2018-06-30 00:00:00
 description:
-featured_image: '../images/env_ms_new.png'
+featured_image: '/images/env_ms_new.png'
 ---
 
 # Contextual Nudging for Intent Disambiguation in Assistive Shared Autonomy
