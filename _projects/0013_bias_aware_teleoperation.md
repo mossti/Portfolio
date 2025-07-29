@@ -6,8 +6,6 @@ description:
 featured_image: '/images/bias_expansion_mapping.png'
 ---
 
-# Bias-Aware Interface Remapping for Assistive Teleoperation
-
 **Expanding access to multi-DOF robotic control by adapting to individual motor constraints**  
 *Andrew Thompson, Larisa Loke, Brenna Argall | Northwestern University + Shirley Ryan AbilityLab*
 

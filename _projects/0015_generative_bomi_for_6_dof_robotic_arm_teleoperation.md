@@ -6,8 +6,6 @@ description:
 featured_image: '/images/latent_space_3d_ssvae_p2_s0TEST_icml_sn5.png'
 ---
 
-# SSVAE-Based Latent Control Mapping for Assistive Robotic Interfaces
-
 **Structured generative models for real-time user intent embedding and control-space adaptation**  
 *Andrew Thompson, Fiona Neylon, Brenna Argall | Northwestern University + Shirley Ryan AbilityLab*
 

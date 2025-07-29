@@ -6,8 +6,6 @@ description:
 featured_image: '/images/env_ms_new.png'
 ---
 
-# Contextual Nudging for Intent Disambiguation in Assistive Shared Autonomy
-
 **Information-theoretic shared control to reduce user cognitive load in ambiguous task environments**  
 *Deepak Gopinath (First Author), Andrew Thompson (Second Author), Brenna Argall Lab*
 

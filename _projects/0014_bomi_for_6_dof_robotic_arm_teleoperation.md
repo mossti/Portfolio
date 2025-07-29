@@ -20,7 +20,6 @@ To center images in markdown, you can use:
 But actual column layout is controlled by your site's HTML/CSS, not markdown alone.
 -->
 
-# Body-Machine Interface for 6-DOF Robotic Arm Teleoperation
 
 **Real-time human-in-the-loop control using wearable IMUs and low-dimensional motion mappings**  
 *Andrew Thompson, Fabio Rizzoglio, Fiona Neylon, Demiana Barsoum, Max McCune, Lucy Ammon, Brenna Argall, Lee Miller | Northwestern University + Shirley Ryan AbilityLab*
