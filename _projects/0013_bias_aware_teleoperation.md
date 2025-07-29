@@ -85,11 +85,11 @@ Unlike fixed axis-aligned control mappings, our method statistically analyzes us
 
 
 
-<div>
+<!-- <div>
 <video class="center" src="{{site.baseurl}}/videos/Idealab_bias_2022_2x_speed.mp4" data-canonical-src="{{site.baseurl}}/videos/Idealab_bias_2022_2x_speed.mp4" controls="controls" style="max-height:640px;">
 
 </video>
-</div>
+</div> -->
 
 ---
 

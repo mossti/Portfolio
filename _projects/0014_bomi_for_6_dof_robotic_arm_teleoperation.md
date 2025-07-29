@@ -80,11 +80,11 @@ This system enables individuals with cervical-level spinal cord injuries (SCI) t
 - Participants performed planar reach, 3D manipulation, and alignment tasks.
 - No mode switching required during control tasks.
 
-<div>
+<!-- <div>
 <video class="center" src="{{site.baseurl}}/videos/hri_lbr_5.mp4" data-canonical-src="{{site.baseurl}}/videos/hri_lbr_5.mp4" controls="controls" style="max-height:640px;">
 
 </video>
-</div>
+</div> -->
 
 ---
 
