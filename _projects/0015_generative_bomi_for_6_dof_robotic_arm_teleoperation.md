@@ -6,7 +6,7 @@ description:
 featured_image: '/images/latent_space_3d_ssvae_p2_s0TEST_icml_sn5.png'
 ---
 
-**Structured generative models for real-time user intent embedding and control-space adaptation**  
+**Structured generative models for real-time user intent embedding and control-space customization**  
 *Andrew Thompson, Fiona Neylon, Brenna Argall | Northwestern University + Shirley Ryan AbilityLab*
 
 ---
@@ -17,7 +17,7 @@ This project explores the use of variational autoencoders (VAEs) to learn struct
 
 <img src="../images/original_ssvae_evolution.png">
 
-Unlike PCA-based mappings used during deployment, the SSVAE-based approach is generative and probabilistic. It allows for intent inference under uncertainty, embedding interpolation, and latent-level adaptation—capabilities that support safer and more generalizable assistive control.
+Unlike PCA-based mappings used during deployment, the SSVAE-based approach is generative and probabilistic. It allows for intent inference under uncertainty, meaningful and continuous interpolation across embeddings, and latent-level customization—capabilities that support safer and more generalizable assistive control.
 
 <img src="../images/CustomSSVAE_with_loss_terms_diagram.png">
 
@@ -75,7 +75,7 @@ Unlike PCA-based mappings used during deployment, the SSVAE-based approach is ge
 ## Key Insights
 
 - VAE-based latents capture user-specific movement signatures in a compact and reusable form.
-- Latent spaces are smoother and more adaptable than PCA in the presence of sensor noise or posture shift.
+- Latent spaces are smoother and more robust than PCA in the presence of sensor noise or posture shift.
 - The probabilistic nature of the model supports uncertainty-aware intent prediction, which is valuable for shared autonomy systems.
 - While not yet deployed in real-time trials, offline control decoding from the latent space has yielded promising results.
 
@@ -101,7 +101,7 @@ This work builds directly on the PCA-based BoMI system used in a 190+ session lo
 
 - Incorporating temporal priors (e.g. LSTM-VAE, temporal VAE) to model motion transitions  
 - Conditioning latent space with goal or task context  
-- Real-time latent decoding + ROS2 interface for on-device teleoperation  
+- Real-time latent encoding + ROS2 interface for on-device teleoperation  
 - Ablation studies on dimensionality, loss structure, and encoder architecture
 
 ---

@@ -42,7 +42,7 @@ This work bridges intent modeling and assistive adaptation, allowing systems to 
 - Represented as time-aligned 2D or 3D trajectory clouds
 - Control space (e.g., arm pose, IMU-derived vector, endpoint trajectory) treated as support domains
 
-### 🧮 OT Mapping
+### OT Mapping
 
 - Compute OT plan between expert and user pose distributions (Wasserstein or Gromov-Wasserstein)
 - Use the OT coupling to define **intermediate pose trajectories**  
@@ -52,11 +52,11 @@ This work bridges intent modeling and assistive adaptation, allowing systems to 
   - Rehabilitative guidance  
   - Motion synthesis or data augmentation
 
-> _**📷 Include figure showing pose interpolation over time between expert and adapted intermediate**_
+> _**Include figure showing pose interpolation over time between expert and adapted intermediate**_
 
 ---
 
-## 💡 Early Findings
+## Early Findings
 
 - OT-generated interpolants preserve key spatiotemporal structure while reducing task-relevant motion demands.
 - Intermediate trajectories often lie **within the user's motion manifold**, improving feasibility and comfort.
@@ -64,7 +64,7 @@ This work bridges intent modeling and assistive adaptation, allowing systems to 
 
 ---
 
-## 🔬 Applications & Future Work
+## Applications & Future Work
 
 - **Assistive teleoperation**: use OT-based motion plans to personalize mappings for high-DOF robotic arms
 - **Rehabilitation robotics**: define reachable goals and training targets aligned with user capacity
@@ -73,7 +73,7 @@ This work bridges intent modeling and assistive adaptation, allowing systems to 
 
 ---
 
-## 🔧 Tools & Frameworks
+## Tools & Frameworks
 
 - OpenPose, MediaPipe for body keypoints  
 - POT + GeomLoss for OT computation (Wasserstein, GW)  

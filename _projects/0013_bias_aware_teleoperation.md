@@ -6,14 +6,14 @@ description:
 featured_image: '/images/bias_expansion_mapping.png'
 ---
 
-**Expanding access to multi-DOF robotic control by adapting to individual motor constraints**  
+**Expanding access to multi-DOF robotic control by optimizing for individual motor constraints**  
 *Andrew Thompson, Larisa Loke, Brenna Argall | Northwestern University + Shirley Ryan AbilityLab*
 
 ---
 
 ## Overview
 
-This project developed and deployed a **bias-aware interface remapping algorithm** for individuals with motor impairments using low-DOF joysticks. The system adaptively reinterprets sparse input patterns to expand access to the full control space of assistive robots—without relying on explicit mode switching.
+This project developed and deployed a **bias-aware interface remapping algorithm** for individuals with motor impairments using low-DOF joysticks. The system reinterprets sparse input patterns to expand access to the full control space of assistive robots—without relying on explicit mode switching.
 
 Unlike fixed axis-aligned control mappings, our method statistically analyzes user-specific input behavior and generates **full-rank mappings** using convex hull expansion and sparse vector decoding. The system was tested in an IRB-approved study involving participants with SCI and stroke.
 
@@ -76,7 +76,7 @@ Unlike fixed axis-aligned control mappings, our method statistically analyzes us
 
 ## Key Contributions
 
-- Developed a **real-time remapping algorithm** that dynamically adapts to user-specific bias patterns.
+- Developed a **real-time remapping algorithm** customized to user-specific bias patterns.
 - Enabled full 6-DOF control from a low-DOF joystick with **no mode switching**.
 - Designed a **custom OpenGL-based GUI** to collect detailed usage metrics and visualize interface behavior.
 - Demonstrated **measurable performance improvement** and increased expressiveness over baseline mappings.
