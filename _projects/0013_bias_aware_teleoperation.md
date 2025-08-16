@@ -108,6 +108,7 @@ Unlike fixed axis-aligned control mappings, our method statistically analyzes us
 > ICORR 2022:  
 > **Control Interface Remapping for Bias-Aware Assistive Teleoperation**  
 > *Andrew Thompson, Larisa Loke, Brenna Argall*
+> [Read the full paper (PDF)](https://bpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/5/1812/files/2022/06/22icorr_thompson.pdf)
 
 ---
 

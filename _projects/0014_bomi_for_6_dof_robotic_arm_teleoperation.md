@@ -92,7 +92,7 @@ This system enables individuals with cervical-level spinal cord injuries (SCI) t
 | Design Challenge               | Strategy / Solution                                           |
 |-------------------------------|----------------------------------------------------------------|
 | Remove need for mode switching| Full-rank PCA-based projection per user                        |
-| Smooth control vs. responsiveness | 2nd order Butterworth filter, tunable cutoff            |
+| Smooth control vs. responsiveness | Madgewick & 2nd order Butterworth filters, tunable cutoff            |
 | Robustness across ability levels | Per-user calibration with fallback for 3–DoF cases       |
 | Safety-critical use case      | Hold-to-enable switch, velocity bounding, kill switch         |
 

@@ -86,7 +86,7 @@ The system was deployed on a Kinova Gen2 robotic arm and tested in simulated and
 > Algorithmic Foundations of Robotics (WAFR), 2022  
 > **Information-Theoretic Intent Disambiguation via Contextual Nudges for Assistive Shared Control**  
 > *Deepak Gopinath, Andrew Thompson, Brenna Argall*  
-<!-- > [Link to publication if available] -->
+[Link to publication (PDF)](https://bpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/5/1812/files/2022/06/22wafr_gopinath.pdf)
 
 ---
 
