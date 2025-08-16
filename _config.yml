@@ -7,9 +7,9 @@ collections:
   pages:
     output: true
     permalink: /:name
-  posts: # [NOTE] changed from posts 7-11-2022
-    output: true
-    permalink: /blog/:slug
+  # posts: # [NOTE] changed from posts 7-11-2022
+  #   output: true
+  #   permalink: /blog/:slug
   projects:
     output: true
     permalink: /project/:slug
