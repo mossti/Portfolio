@@ -23,7 +23,7 @@ But actual column layout is controlled by your site's HTML/CSS, not markdown alo
 
 **Real-time human-in-the-loop control using wearable IMUs and low-dimensional motion mappings**  
 *Andrew Thompson, Fabio Rizzoglio, Fiona Neylon, Demiana Barsoum, Max McCune, Lucy Ammon, Brenna Argall, Lee Miller | Northwestern University + Shirley Ryan AbilityLab*
-
+[**Read the full paper (PDF)**](https://bpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/5/1812/files/2024/03/24hri_thompson-e79aa6d0230591ed.pdf)
 ---
 
 ## Overview
