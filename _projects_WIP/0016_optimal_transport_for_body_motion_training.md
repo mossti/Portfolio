@@ -1,5 +1,5 @@
 ---
-title: 'VAE-Based Latent Control Mapping for Assistive Robotic Interfaces'
+title: 'Optimal Transport for Effort-Minimizing Trajectory Alignment in Assistive Interfaces'
 subtitle:
 date: 2018-06-30 00:00:00
 description:
