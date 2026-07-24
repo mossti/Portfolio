@@ -6,7 +6,7 @@ description:
 featured_image: '/images/01_single_task_vs_multitask.png'
 ---
 
-**Deep-learning plant species and disease classification, from a small CNN to a Vision Transformer comparison**  
+**Deep-learning plant species and disease classification, comparing a small CNN to a Vision Transformer comparison**  
 *Andrew Thompson*
 
 ---
@@ -22,12 +22,7 @@ classes, and built up from a single classifier to a shared multi-task model
 to a Vision Transformer comparison.
 
 **System:** RTX 4050 Laptop GPU, 6 GB VRAM, PyTorch [2] 2.13.0, torchvision
-[3] 0.28.0, CUDA [14] 12.9, Adam [7] as the optimizer everywhere. 6 GB isn't
-much, and it shaped one rule I held to for the rest of the project: only one
-model trains at a time. A multi-head model counts as one model; two
-separate training jobs running at once does not. I broke that rule once
-early on, it produced CUDA out-of-memory warnings, and I didn't do it
-again. More on that below.
+[3] 0.28.0, CUDA [14] 12.9, Adam [7] as the optimizer everywhere.
 
 ---
 
