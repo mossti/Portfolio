@@ -3,7 +3,7 @@ title: 'Real-Time Elastic Deformation Tracking of a Flexible Skin-Mounted Lattic
 subtitle: 'Markerless, vision-based strain tracking for inferring subsurface muscle motion'
 date: 2023-09-01 00:00:00
 description:
-featured_image: '/images/sam2_lattice_mask.png'
+featured_image: '/images/lattice_mask_with_holes.png'
 ---
 
 **A monocular CV system that tracks elastic deformation of a 4×4 flexible silicone lattice adhered to skin, separating per-node elastic displacement from rigid-body limb motion to infer subsurface muscle activity, at 30 fps, using a single USB webcam and no contact instrumentation.**  

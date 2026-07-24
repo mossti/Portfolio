@@ -8,6 +8,8 @@ featured_image: '/images/cloakedreading.jpg'
 
 ## Conferences & Journals
 
+ **Thompson, A.**; Argall, B. A Zero-Force Optical Sensor Interface and Fitting Protocol for Customized Assistive Technology Control. [In Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization (UMAP '26); ACM: Gothenburg, Sweden, 2026.](https://doi.org/10.1145/3774935.3812711)
+
  **Thompson, A.**; Rizzoglio, F.; Neylon, F. A.; Barsoum, D. R.; Ammon, L. E.; Mccune, M. N.; Miller, L.; Argall, B. An Evolution of Assistive Robot Control to Meet End-User Ability. [In Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction; ACM: Boulder CO USA, 2024; pp 1048–1052.](https://doi.org/10.1145/3610978.3640565)
 
  **Thompson, A.**; Loke, L. Y.; Argall, B. Control Interface Remapping for Bias-Aware Assistive Teleoperation. [In 2022 International Conference on Rehabilitation Robotics (ICORR); IEEE, 2022; pp 1–6.](https://arxiv.org/pdf/2205.08489)

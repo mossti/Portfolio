@@ -73,12 +73,6 @@ Earlier exploratory work on this project (before the geometric/temporal loss des
 
 The input is 24-dimensional: six body-worn IMUs, each producing a quaternion, individually placed per participant based on their specific residual motor ability (a wrist twitch for one participant, a head tilt for another). The trained encoder runs as the perception front-end of a real-time ROS 2 control node at 100 Hz, replacing an earlier KNN + per-class-PCA pipeline (retained as an automatic fallback). Per-DOF control gains are derived directly from each latent axis's learned extent, and inference reads out the encoder's deterministic output rather than a stochastic sample, since the control mapping needs to be exactly reproducible on every tick.
 
-## What I'd highlight in a technical conversation
-
-Every regularizer in the loss term set earned its place through measurement, not intuition — that's probably the single thing I'd lead with. Close behind it: the metric suite is its own piece of the work. Standard generative-model metrics don't capture what a control application needs, so defining and validating ones that do took real effort, not an afterthought bolted onto the results section.
-
-I also tried to hold a high bar statistically at a small sample size — n = 8, a heterogeneous population, nonparametric paired tests, and transparent reporting of what did and didn't clear a corrected significance threshold, including a negative result I was glad to report plainly (monotonicity was already present in every baseline, so it wasn't something this method needed to improve). And the "stateless controller" principle that shaped the architecture isn't only a paper claim: it's the same reasoning behind reading out the deterministic latent mean, not a sampled draw, in the real-time inference code that actually runs the robot.
-
 ## Stack
 
 PyTorch · Optuna (TPE + Hyperband pruning) for hyperparameter search · Weights & Biases for experiment tracking · scipy/statsmodels for statistical testing · ROS 2 for real-time deployment.
