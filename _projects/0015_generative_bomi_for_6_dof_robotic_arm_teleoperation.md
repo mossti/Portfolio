@@ -13,12 +13,12 @@ featured_image: '/images/latent-space-comparison.png'
 
 ---
 
-![3D PCA projection comparing four generative model architectures on tabletop control data vs. real body-motion prompt data — a baseline VAE, GAN, standard SSVAE, and the custom SSVAE](../images/latent-space-comparison.png)
+![3D PCA projection comparing four generative model architectures on tabletop control data vs. real body-motion prompt data: a baseline VAE, GAN, standard SSVAE, and the custom SSVAE](../images/latent-space-comparison.png)
 *3D latent-space comparison: the custom SSVAE (right column) is the only model that produces a clean, axis-aligned, bipolar structure on real body-motion data (bottom row). That property is what lets the latent space double as a controller.*
 
 ## The problem
 
-People with high-level cervical spinal cord injuries retain only residual motion — a head tilt, a small wrist twitch — but existing assistive interfaces for controlling a robotic arm are largely **mode-switching** (operate one degree of freedom at a time) or **discrete** (sip-and-puff), which is slow and cognitively demanding for continuous 6-DoF tasks like reaching or manipulating objects.
+People with high-level cervical spinal cord injuries retain only residual motion, like a head tilt or a small wrist twitch. Existing assistive interfaces for controlling a robotic arm are largely **mode-switching** (operate one degree of freedom at a time) or **discrete** (sip-and-puff), which is slow and cognitively demanding for continuous 6-DoF tasks like reaching or manipulating objects.
 
 My goal was a mapping from raw, high-dimensional IMU sensor data directly to a 6-D control signal: proportional, simultaneous across all axes, and usable without bolting on an extra hand-engineered transformation after the fact.
 
@@ -55,7 +55,7 @@ Evaluated against 6 baseline generative model families (VAE, GAN, VQ-VAE, RealNV
 Standard generative-model metrics like FID, ELBO, or reconstruction error don't answer the question that actually matters for a controller: whether the latent axes correspond to control channels a person can operate independently. So this project's evaluation uses a purpose-built metric suite instead: cosine alignment, on-axis fraction, orthogonality score, bipolarity, and predictive VAF, each chosen because standard generative-model evaluation doesn't measure it.
 
 ![Combined latent space structure analysis showing near-diagonal variance decomposition, bipolar temporal trajectories, and orthogonal pairwise dimension scatter for the custom SSVAE](../images/latent-structure-analysis.png)
-*(a) Each motion prompt concentrates its variance almost entirely in a single designated latent dimension (near-diagonal heatmap). (b) Latent trajectories follow smooth, symmetric rest → peak → rest paths. (c) Cross-shaped scatter patterns confirm mutually orthogonal class directions — all consistent with a latent space that behaves like a well-calibrated joystick.*
+*(a) Each motion prompt concentrates its variance almost entirely in a single designated latent dimension (near-diagonal heatmap). (b) Latent trajectories follow smooth, symmetric rest → peak → rest paths. (c) Cross-shaped scatter patterns confirm mutually orthogonal class directions, consistent with a latent space that behaves like a well-calibrated joystick.*
 
 The model also generalizes across a longitudinal study (multi-session training spanning a ~2.5-month calibration period) and reduces inter-participant variability relative to baselines, despite substantial heterogeneity in injury level and residual motor ability across the cohort.
 
@@ -63,13 +63,13 @@ The model also generalizes across a longitudinal study (multi-session training s
 
 Earlier exploratory work on this project (before the geometric/temporal loss design above was finalized) looked specifically at whether the learned structure transfers between people, rather than just across sessions for the same person. Two results from that phase carried forward into the final system:
 
-- **Cross-user generalization** — training the encoder on one participant and evaluating on another showed that the latent axes retain their structure, though the decoder still needed fine-tuning to turn that structure into accurate control output for the new user. In other words, the geometry transfers more readily than the exact control mapping does.
-- **Few-shot retraining** — fine-tuning on a small new-user calibration set (20-50 examples) converged rapidly, which is the practical version of that same finding: a new user doesn't need a full session's worth of data before the system becomes usable.
+- **Cross-user generalization**: training the encoder on one participant and evaluating on another showed that the latent axes retain their structure, though the decoder still needed fine-tuning to turn that structure into accurate control output for the new user. The geometry transfers more readily than the exact control mapping does.
+- **Few-shot retraining**: fine-tuning on a small new-user calibration set (20-50 examples) converged rapidly. A new user doesn't need a full session's worth of data before the system becomes usable.
 
 ## From sensor to controller
 
 ![Example of a single motion prompt enactment showing the first principal component of quaternion sensor data over time, with detected rest position, zero crossings, and rest/movement thresholds annotated](../images/prompt-temporal-structure.png)
-*Every calibration motion follows a fixed rest → positive-extent → rest → negative-extent → rest structure — the physical basis for the trimodal prior used in the loss design above.*
+*Every calibration motion follows a fixed rest → positive-extent → rest → negative-extent → rest structure. This is the physical basis for the trimodal prior used in the loss design above.*
 
 The input is 24-dimensional: six body-worn IMUs, each producing a quaternion, individually placed per participant based on their specific residual motor ability (a wrist twitch for one participant, a head tilt for another). The trained encoder runs as the perception front-end of a real-time ROS 2 control node at 100 Hz, replacing an earlier KNN + per-class-PCA pipeline (retained as an automatic fallback). Per-DOF control gains are derived directly from each latent axis's learned extent, and inference reads out the encoder's deterministic output rather than a stochastic sample, since the control mapping needs to be exactly reproducible on every tick.
 

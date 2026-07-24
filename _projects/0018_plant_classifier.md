@@ -291,8 +291,8 @@ time it happened produced OOM warnings and a result I had to throw out
 entirely, because the concurrency itself was a confound I couldn't
 separate from the actual intervention.
 
-The Potato write-up above reports the tradeoff, not just the number that
-improved, on purpose. The first oversampling result looked like an
+The Potato write-up above deliberately reports the tradeoff alongside the
+number that improved. The first oversampling result looked like an
 unambiguous win until I noticed the healthy-precision drop. Accuracy and
 recall going up while precision quietly falls is a real cost, and glossing
 over it would have made this a worse write-up, not a better one.

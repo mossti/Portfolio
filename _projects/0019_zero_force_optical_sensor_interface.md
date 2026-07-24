@@ -15,20 +15,20 @@ featured_image: '/images/I07_detail.png'
 
 ## Overview
 
-Fitting an assistive technology (AT) interface to a person with severe motor impairment means finding which sensor placements and control configurations will produce functional control for that specific person. For most AT devices, this is done informally — a clinician tries a few options, observes the user, and makes a judgment call. When the configuration space is large, that process breaks down.
+Fitting an assistive technology (AT) interface to a person with severe motor impairment means finding which sensor placements and control configurations will produce functional control for that specific person. For most AT devices, this is done informally: a clinician tries a few options, observes the user, and makes a judgment call. When the configuration space is large, that process breaks down.
 
 This project addresses that problem for a class of interface that had not previously been used for AT cursor control: optical navigation system (ONS) sensors. These sensors track surface motion via optical flow, the same sensing principle as a computer mouse, without contact force, without dedicated infrastructure, and without a force threshold to overcome. A user with no ability to generate sustained pressure can operate one. The downside is that the configuration space is large: sensors can be placed above any body site with residual motion, and each placement comes with an independently configurable signal processing pipeline.
 
 To make that configuration space navigable, I designed a hierarchical five-level assessment battery that systematically evaluates each sensor-body-site pairing and produces scores that directly inform configuration decisions. The battery and interface were evaluated in a preliminary study with six participants with severe motor impairments (cervical SCI, ALS, dermatomyositis), across 16 sensor-body-site pairings.
 
 <img src="../images/I07_detail.png">
-*Participant I07 using the fitted ONS interface — a chin sensor (A) and right shoulder sensor (B) mounted on adjustable gooseneck arms. Illustrates the non-contact, zero-force mounting approach.*
+*Participant I07 using the fitted ONS interface: a chin sensor (A) and right shoulder sensor (B) mounted on adjustable gooseneck arms, illustrating the non-contact, zero-force mounting approach.*
 
 ---
 
 ## The Interface
 
-The hardware uses PixArt PAW3008J1 optical navigation sensors (50-3200 CPI, 24 in/s tracking, I²C, 2.5 mA) with integrated capacitive touch detection for hold-state recognition. Sensors mount in custom housings on flexible gooseneck arms, positioned above body sites with residual voluntary motion — chin, shoulder, cheek, temple, knee, elbow, and others across the six participants.
+The hardware uses PixArt PAW3008J1 optical navigation sensors (50-3200 CPI, 24 in/s tracking, I²C, 2.5 mA) with integrated capacitive touch detection for hold-state recognition. Sensors mount in custom housings on flexible gooseneck arms, positioned above body sites with residual voluntary motion: chin, shoulder, cheek, temple, knee, elbow, and others across the six participants.
 
 A custom C++/ROS2 system processes sensor signals through a seven-layer pipeline before mapping to control output: smoothing, gain, direction remapping, and thresholding are each configurable per sensor site. Control mapping options fall into three categories: *discrete positional* (contact-triggered output), *continuous* (proportional to sensor motion), and *direction-sensing* (output contingent on motion direction). Two formulations are tailored specifically to AT constraints: the halfspace mapping restricts the active output region to a single half-plane, enabling reliable unipolar proportional control from body sites with limited range of motion; the direction-sensing mapping converts analog motion into discrete directional outputs, providing multi-directional switching without dedicated switches.
 
@@ -48,9 +48,9 @@ The battery has five levels, each targeting a distinct motor capability:
 | 4 | 2D Continuous | Free workspace coverage; signal quality under continuous movement |
 | 5 | Multi-Sensor | Coordinated control of 2-3 sensors simultaneously |
 
-Levels 1-4 are designed for broad applicability to continuous-control AT interfaces generally, not just ONS sensors. Level 1 uses dwell duration as its primary measure; Levels 2-3 and 5 use dwell-based target success (0.5 s on target); Level 4 advances targets on a fixed schedule and measures the fraction of cursor time-on-target. Assessment scores, composites of success rate, accuracy, and efficiency, combine with clinical partner observations and participant feedback to determine which control mapping each body site receives.
+Levels 1-4 are designed for broad applicability to continuous-control AT interfaces generally, beyond ONS sensors specifically. Level 1 uses dwell duration as its primary measure; Levels 2-3 and 5 use dwell-based target success (0.5 s on target); Level 4 advances targets on a fixed schedule and measures the fraction of cursor time-on-target. Assessment scores, composites of success rate, accuracy, and efficiency, combine with clinical partner observations and participant feedback to determine which control mapping each body site receives.
 
-The battery produces not just pass/fail outcomes but failure mode profiles, which distinguish *why* a user struggles at a given level and directly inform configuration decisions.
+The battery produces failure mode profiles alongside pass/fail outcomes, distinguishing *why* a user struggles at a given level and directly informing configuration decisions.
 
 <img src="../images/figure_battery_tasks.png">
 *Assessment battery task displays (L1-L5): the software task interface at each battery level, rendered within the circular sensor workspace. Left to right: dwell on a full-field target (L1), radial reach to a 1D target (L2), 2D pointing to 8 directions (L3), continuous tracking of advancing targets (L4), and multi-sensor coordinated control (L5).*

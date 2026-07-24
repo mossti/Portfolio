@@ -6,7 +6,7 @@ description:
 featured_image: '/images/03_speed_ratio_vs_resolution.png'
 ---
 
-**Benchmarking a classical OpenCV pipeline on CPU vs. CUDA, on real laptop hardware, to find out when GPU acceleration actually pays off**  
+**Benchmarking a classical OpenCV pipeline on CPU vs. CUDA on real laptop hardware to find out when GPU acceleration actually pays off**  
 *Andrew Thompson*
 
 ---
@@ -38,7 +38,7 @@ GPU's advantage shows up if it shows up anywhere at all.
 
 ---
 
-## Decomposing GPU time: it's not just transfer overhead
+## Decomposing GPU time: transfer overhead isn't the whole story
 
 First step was instrumenting the CUDA path with per-stage timing: upload,
 kernel execution via CUDA events rather than wall-clock, and download,

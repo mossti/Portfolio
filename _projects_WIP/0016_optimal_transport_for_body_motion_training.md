@@ -15,7 +15,7 @@ featured_image: '/images/BME_462_rigid_foot_v2_step0.png'
 
 ## Overview
 
-This ongoing project leverages **Optimal Transport (OT)** to analyze, compare, and interpolate between **expert and non-expert body motions**, with the goal of identifying **effort-minimizing intermediate trajectories**. By representing motion data as distributions over pose keypoints, OT is used to discover paths in latent or pose space that support more accessible control strategies or rehabilitative goals.
+This ongoing project uses **Optimal Transport (OT)** to analyze, compare, and interpolate between **expert and non-expert body motions**, with the goal of identifying **effort-minimizing intermediate trajectories**. By representing motion data as distributions over pose keypoints, OT is used to discover paths in latent or pose space that support more accessible control strategies or rehabilitative goals.
 
 This work bridges intent modeling and assistive adaptation, allowing systems to better align with the user's physical capabilities and effort profile—especially for individuals with motor impairments.
 
