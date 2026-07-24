@@ -33,29 +33,6 @@
 		height: auto;
 	}
 
-	details {
-		margin: 20px auto;
-		max-width: 500px;
-
-		@include mq(tabletp) {
-			margin: 30px auto;
-			max-width: 70%;
-		}
-
-		@include mq(tabletl) {
-			max-width: 65%;
-		}
-
-		@include mq(laptop) {
-			margin: 40px auto;
-			max-width: 60%;
-		}
-	}
-
-	summary {
-		cursor: pointer;
-	}
-
 	h1, h2, h3, h4, h5, h6, p, ul, ol {
 		margin-left: auto;
 		margin-right: auto;

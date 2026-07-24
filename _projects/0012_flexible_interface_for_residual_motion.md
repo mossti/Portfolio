@@ -33,8 +33,7 @@ The core challenge is separating *elastic* deformation (strain from muscle activ
 
 This is an active, ongoing personal research project, not tied to any lab or employer. The system runs in real time on a standard webcam at 30 fps and produces per-node displacement and per-triangle strain/stress estimates suitable for downstream gesture classification, control mapping, or biomechanical analysis.
 
-<details markdown="1">
-<summary><strong>Technical deep-dive: architecture, math, and engineering challenges</strong> (click to expand)</summary>
+## Technical Deep-Dive: Architecture, Math, and Engineering Challenges
 
 ### System Architecture
 
@@ -194,8 +193,6 @@ $$
 - Otsu, N. (1979). A Threshold Selection Method from Gray-Level Histograms. *IEEE Transactions on Systems, Man, and Cybernetics*, 9(1), 62-66. [DOI](https://doi.org/10.1109/TSMC.1979.4310076)
 - Zuiderveld, K. (1994). Contrast Limited Adaptive Histogram Equalization. In *Graphics Gems IV* (pp. 474-485). [DOI](https://doi.org/10.1016/b978-0-12-336156-1.50061-6)
 - Fischler, M. A., & Bolles, R. C. (1981). Random Sample Consensus: A Paradigm for Model Fitting with Applications to Image Analysis and Automated Cartography. *Communications of the ACM*, 24(6), 381-395. [DOI](https://doi.org/10.1145/358669.358692)
-
-</details>
 
 ## Technologies
 
