@@ -24,13 +24,15 @@ Following graduation, I attended Northwestern University as a member of the 2018
 
 I love to learn and I love to build! Feel free to contact me if you know of opportunities for curious creators. -->
 
-Hi there! I’m a PhD candidate in Mechanical Engineering at Northwestern University, working at the intersection of assistive robotics, human-machine interfaces, and machine learning. I conduct my research in Dr. Brenna Argall’s lab (argallab), housed within the Shirley Ryan AbilityLab, where I design and evaluate adaptive control systems for individuals with severe motor impairments.
+Hi there! I’m a roboticist with a PhD in Mechanical Engineering from Northwestern University, where I worked at the intersection of assistive robotics, human-machine interfaces, and machine learning. My doctoral research was conducted in Dr. Brenna Argall’s lab (argallab), housed within Shirley Ryan AbilityLab, where I designed and evaluated adaptive control systems for individuals with severe motor impairments.
 
-My work combines statistical modeling, generative methods, and embedded systems to build interfaces that personalize themselves to the user. This can be done via intent disambiguation, the application of shared autonomy, or through zero-force sensing (for small residual movements). I’ve led multi-session human-subject studies, developed ROS2-based infrastructure for wearable IMUs, and designed control algorithms that aim to reduce cognitive and physical burden for users with conditions such as spinal cord injury, stroke, and various neurodegenerative conditions.
+My work combined statistical modeling, generative methods, and embedded systems to build interfaces that personalize themselves to the user, through intent disambiguation, shared autonomy, and zero-force sensing for small residual movements. I led multi-session human-subject studies, developed ROS2-based infrastructure for wearable IMUs, and designed control algorithms aimed at reducing cognitive and physical burden for users with conditions such as spinal cord injury, stroke, and various neurodegenerative conditions.
+
+I’m now based in Chicago and actively looking for my next full-time role in robotics, assistive technology, or human-robot interaction, whether research or engineering. In the meantime I’ve been working part-time as a Robotic Data Collection Team Lead at Instawork.
 
 Before grad school, I earned dual degrees in Physics (B.S.) and Folklore (B.A.) from Indiana University. This combination continues to inform my approach to problem-solving, systems thinking, and inclusive design. I also completed a Master of Science in Robotics (MSR) at Northwestern.
 
-I love learning, building, and collaborating across disciplines. Feel free to get in touch if you’re looking to connect on human-centered robotics, generative modeling, or user-driven design.
+I am passionate about learning, building, and collaborating across disciplines. If you’re hiring, or know of an opportunity that might be a fit, I’d love to hear from you.
 
 <a id="raw-url" href="https://github.com/mossti/Portfolio/blob/master/docs/andrew_thompson_academic_CV_july_2025.pdf">[NOTE] 👉 click here to view my C.V.</a>
 
