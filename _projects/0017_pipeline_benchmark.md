@@ -124,7 +124,7 @@ pulled 46% ahead end-to-end. Heavier per-pixel work is exactly what
 parallel hardware is for, and the crossover point is a direct measurement
 of how much work justifies the fixed overhead.
 
-### 3. Iteration count, and a real surprise
+### 3. Iteration count
 
 ![Latency vs. iteration count: blur and morphology diverge](../images/09_iteration_count_blur_vs_morphology.png)
 

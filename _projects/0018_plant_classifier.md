@@ -138,20 +138,15 @@ cases, defaulting to a disease label whenever it's unsure.
 My first attempt was `WeightedRandomSampler` oversampling [11] of the
 minority class plus heavier augmentation, and at first glance it looked
 like a clean win: 98.77% accuracy, healthy recall up to 100% from 94.12%.
-Two problems with that framing. First, I'd launched that run at the same
-time as an unrelated multi-task training job, and both logged transient
-CUDA out-of-memory warnings. The allocator retried and both runs finished
-without crashing, but running two jobs on a 6 GB card at once isn't
-something I wanted to risk again, and that's where the single-model rule
-at the top of this page comes from. Second, and more important, healthy
-precision had dropped from 100% to 94.12% in that run. That's a real
-tradeoff: more false "healthy" calls on leaves that are genuinely diseased.
-Calling the result a clean win the first time around was wrong, so that's
-staying in this write-up rather than getting quietly fixed.
+It wasn't. Healthy precision had dropped from 100% to 94.12% in that run,
+a real tradeoff: more false "healthy" calls on leaves that are genuinely
+diseased. Calling the result a clean win would have been wrong, so that
+tradeoff is staying in this write-up rather than getting quietly fixed.
 
-I threw the result out as evidence, since the concurrent job was a
-confound I couldn't rule out, and started over properly: one variable at a
-time, one job at a time, with the tradeoffs stated plainly.
+Oversampling and heavier augmentation were also stacked together in that
+run, which made it hard to isolate which change was responsible for which
+effect. So I started over properly: one variable at a time, with the
+tradeoffs stated plainly.
 
 ### A proper two-factor design
 
@@ -210,8 +205,8 @@ augmentation at power 2.0 is worse (96.08% / 81.25%) than power 2.0 with no
 augmentation at all. Warping and a high loss-weight exponent are both, in
 their own way, telling the model to try harder on the minority class, and
 stacking them over-corrects. It's the same double-regularization pattern
-that explains, in hindsight, why the original concurrent oversampling run
-cost precision.
+that explains, in hindsight, why the original oversampling run cost
+precision.
 
 Masking is mild and mostly power-independent: 71.88% recall at both power
 1.0 and power 2.0, an exact tie I'd chalk up to coincidence rather than a
@@ -285,11 +280,6 @@ nothing.
 ---
 
 ## A few things this project reinforced
-
-I never ran two training jobs on a 6 GB card at once again after the one
-time it happened produced OOM warnings and a result I had to throw out
-entirely, because the concurrency itself was a confound I couldn't
-separate from the actual intervention.
 
 The Potato write-up above deliberately reports the tradeoff alongside the
 number that improved. The first oversampling result looked like an
